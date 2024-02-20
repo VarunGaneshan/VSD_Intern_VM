@@ -4,7 +4,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 >Through this Repo, I intend to document my weekly learnings & progress for this project.
 
->[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic gihub documentation.
+>[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic github documentation.
 
 ##  Week1_Task1
 
@@ -33,12 +33,13 @@ RTL2GDS flow & tools required:
 >Schematic editor,tool - **eSim**
 
 </details>	
-
-### Work
+<details>
+ <summary> Work </summary>
 To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.
 - iverilog
 - gtkwave
 - yosys
+</details>	
 
 ### iverilog
 >sudo apt-get install iverilog
