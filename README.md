@@ -30,13 +30,16 @@ RTL2GDS flow & tools required:
 
 >Schematic editor,tool - **eSim**
 ### Work
-To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.efer to this course for all the tools installation - 
+To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.
 - iverilog
 - gtkwave
 - yosys
 
 ### iverilog
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/95de84c2-8752-4888-8a0c-f38f6ef44585)
 
 ### gtkwave
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/2958abbd-740b-4721-aac3-2af69e0fcff9)
+
 
 ### yosys
