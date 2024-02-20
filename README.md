@@ -17,6 +17,7 @@ RTL2GDS flow:
 >IC design flow tool - **Graywolf**
 - Floorplanning
 - Placement of logical cells
+>Layout viewer at any stage to correct DRC,tool - **MAGIC**
 - Clock Tree Synthesis(to get the specified skew)
 >Routing toll - **Qrouter**
 - Routing
