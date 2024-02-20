@@ -11,7 +11,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 	
 >Complete flow toolchain - **Qflow**
 
-> [^1]: Refer to this course for all the open source tools installation - [Link](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview) 
+> Refer to this course for all the open source tools installation - [Link](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview) 
 
 >Static Timing Analysis mandatory at every stage,tool - **Opentimer**
 - RTL netlist
@@ -35,7 +35,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 <details>
  <summary> Work </summary>
-To install all the necessary tools required for this project.Refer to the course[^1]. to install Virtual box with Ubuntu 20.04+,allocate 6-8GB RAM,4CPU and 40GB Disk Space.Install the following tools:
+To install all the necessary tools required for this project.Refer to the course. to install Virtual box with Ubuntu 20.04+,allocate 6-8GB RAM,4CPU and 40GB Disk Space.Install the following tools:
  
 - iverilog
 - gtkwave
