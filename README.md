@@ -1,17 +1,14 @@
 # **VSD_Internship_Project**
 ## Vending_Machine_with_Change_System
-My design is a **Vending Machine with Change System**. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist(logic synthesis) as closely as possible.
+My design is a **Vending Machine with Change System**. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist as closely as possible.
 
 >Through this Repo, I intend to document my weekly learnings & progress for this project.
 
 >[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic github documentation.
 
-###  Week1_Task1
-
 <details>
- <summary> Notes </summary>
-
-RTL2GDS flow & tools required:
+ <summary> RTL2GDS flow & tools required </summary>
+	
 >Complete flow toolchain - **Qflow**
 
 >Refer to this course for all the open source tools installation - [Link](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview) 
@@ -33,6 +30,9 @@ RTL2GDS flow & tools required:
 >Schematic editor,tool - **eSim**
 
 </details>	
+
+###  Week1_Task1
+
 <details>
  <summary> Work </summary>
 To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.
