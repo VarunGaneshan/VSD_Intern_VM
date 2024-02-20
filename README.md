@@ -12,6 +12,8 @@ My design is a **Vending Machine with Change System**. The project aims to match
 RTL2GDS flow & tools required:
 >Complete flow toolchain - **Qflow**
 
+>Refer to this course for all the open source tools installation - [Link](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview) 
+
 >Static Timing Analysis mandotary at every stage,tool - **Opentimer**
 - RTL netlist
 >Logic Synthesis tool - **Yosys open synthesis suite**
@@ -28,7 +30,7 @@ RTL2GDS flow & tools required:
 
 >Schematic editor,tool - **eSim**
 ### Work
-To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.
+To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.efer to this course for all the tools installation - 
 - iverilog
 - gtkwave
 - yosys
