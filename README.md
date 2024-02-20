@@ -6,7 +6,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 >[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic github documentation.
 
-##  Week1_Task1
+###  Week1_Task1
 
 <details>
  <summary> Notes </summary>
@@ -42,7 +42,8 @@ To install all the necessary tools required for this project. I have already ins
 - yosys
 </details>	
 
-### iverilog
+<details>
+ <summary> iverilog </summary>
 ```bash
 sudo apt-get install iverilog
 ```
@@ -52,7 +53,7 @@ sudo apt-get install iverilog
 After launch 
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/0238a323-29d9-469f-877a-f63a053e7020)
-
+</details>	
 ### gtkwave
 ```bash
 sudo apt update
