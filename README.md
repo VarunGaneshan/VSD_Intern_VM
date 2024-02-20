@@ -36,6 +36,8 @@ To install all the necessary tools required for this project. I have already ins
 - yosys
 
 ### iverilog
+>sudo apt-get install iverilog
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/95de84c2-8752-4888-8a0c-f38f6ef44585)
 
 After launch
