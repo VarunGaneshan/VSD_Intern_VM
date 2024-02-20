@@ -11,9 +11,9 @@ My design is a **Vending Machine with Change System**. The project aims to match
 ### Notes:
 RTL2GDS flow:
 - RTL netlist
-- Logic Synthesis tool-**Yosys open synthesis suite**
+>Logic Synthesis tool-**Yosys open synthesis suite**
 - Through Logic synthesis you get Logical netlist(gates&flipflops)
-- IC design flow tool-**Graywolf**
+>IC design flow tool-**Graywolf**
 - Floorplanning
 - Placement of logical cells
 - Clock Tree Synthesis(to get the specified skew)
