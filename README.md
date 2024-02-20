@@ -1,32 +1,23 @@
 # **VSD_Internship_Project**
 ## Vending_Machine_with_Change_System
-My design is a **Vending Machine with Change System**. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist as closely as possible.
+My design is a **Vending Machine with Change System**. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist(logic synthesis) as closely as possible.
 
 >Through this Repo, I intend to document my weekly learnings & progress for this project.
 
 >[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic gihub documentation.
 
-###  Week1_Task1
-<details>
-<summary>Work</summary>
-<br>
+##  Week1_Task1
+
+### Work
 To install all the necessary tools required for the project. I have already installed VirtualBox with Ubuntu 22.04.
-</details>
+- iverilog
+- gtkwave
+- yosys
 
-<details>
-<summary>iverilog</summary>
-<br>
+### iverilog
 
-</details>
+### gtkwave
 
-<details>
-<summary>gtkwave</summary>
-<br>
+### yosys
+Yosys open synthesis suie is the tool used for logic synthesis.
 
-</details>
-
-<details>
-<summary>yosys</summary>
-<br>
-
-</details>
