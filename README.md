@@ -10,7 +10,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 <details>
 <summary>Work</summary>
 <br>
-To install all the necessary tools required for the project. I have already used VirtualBox with ubuntu 22.04.
+To install all the necessary tools required for the project. I have already installed VirtualBox with Ubuntu 22.04.
 </details>
 
 <details>
