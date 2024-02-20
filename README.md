@@ -11,7 +11,8 @@ My design is a **Vending Machine with Change System**. The project aims to match
 ### Notes
 RTL2GDS flow & tools required:
 >Complete flow toolchain - **Qflow**
->>Static Timing Analysis mandotary at every stage,tool - **Opentimer**
+
+>Static Timing Analysis mandotary at every stage,tool - **Opentimer**
 - RTL netlist
 >Logic Synthesis tool - **Yosys open synthesis suite**
 - Through Logic synthesis you get Logical netlist(gates&flipflops)
