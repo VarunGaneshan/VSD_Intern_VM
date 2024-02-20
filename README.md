@@ -25,6 +25,7 @@ RTL2GDS flow & tools required:
 - Routing
 - Signoff - gds out to fabrication
 >Pre/Post layout Simulation,tool - **ngSPICE**
+
 >Schematic editor,tool - **eSim**
 ### Work
 To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.
