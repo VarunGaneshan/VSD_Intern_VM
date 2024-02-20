@@ -22,6 +22,8 @@ RTL2GDS flow:
 >Routing toll - **Qrouter**
 - Routing
 - Signoff - gds out to fabrication
+>Pre/Post layout Simulation,tool - **ngSPICE**
+>Schematic editor,tool - **esim**
 ### Work
 To install all the necessary tools required for the project. I have already installed VirtualBox with Ubuntu 22.04.
 - iverilog
