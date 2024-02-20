@@ -25,7 +25,7 @@ RTL2GDS flow & tools required:
 >Pre/Post layout Simulation,tool - **ngSPICE**
 >Schematic editor,tool - **esim**
 ### Work
-To install all the necessary tools required for the project. I have already installed VirtualBox with Ubuntu 22.04.
+To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.
 - iverilog
 - gtkwave
 - yosys
