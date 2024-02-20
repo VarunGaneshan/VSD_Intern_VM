@@ -40,19 +40,41 @@ To install all the necessary tools required for this project. I have already ins
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/95de84c2-8752-4888-8a0c-f38f6ef44585)
 
-After launch
+After launch 
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/0238a323-29d9-469f-877a-f63a053e7020)
 
 ### gtkwave
+>sudo apt update
+
+>sudo apt install gtkwave
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/2958abbd-740b-4721-aac3-2af69e0fcff9)
 
 After launch
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/638882c0-5119-481d-860d-679a62039621)
 
 ### yosys
+>git clone https://github.com/YosysHQ/yosys.git
+
+>cd yosys
+
+>sudo apt install make
+
+>sudo apt-get install build-essential clang bison flex \libreadline-dev gawk tcl-dev libffi-dev git \
+graphviz xdot pkg-config python3 libboost-system-dev \ libboost-python-dev libboost-filesystem-dev zlib1g-dev
+
+>make config-gcc
+
+>make
+
+>sudo make install
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/6f41ef80-39c0-4206-8017-04f8629178dd)
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/4a9a5ea5-17f9-4841-8244-ac77fe5d1d47)
 
 After launch
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/9f4b4e66-3c42-43ef-9c7b-61bb31642816)
 
