@@ -17,7 +17,8 @@ RTL2GDS flow:
 - Floorplanning
 - Placement of logical cells
 - Clock Tree Synthesis(to get the specified skew)
-
+>Routing-**Qrouter**
+- Routing
 ### Work
 To install all the necessary tools required for the project. I have already installed VirtualBox with Ubuntu 22.04.
 - iverilog
