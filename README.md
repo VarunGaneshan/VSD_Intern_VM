@@ -8,12 +8,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 ##  Week1_Task1
 
-### Work
-To install all the necessary tools required for the project. I have already installed VirtualBox with Ubuntu 22.04.
-- iverilog
-- gtkwave
-- yosys
-**Notes:**
+### Notes:
 RTL2GDS flow:
 -RTL netlist
 -Logic Synthesis tool-**Yosys open synthesis suite**
@@ -22,6 +17,12 @@ RTL2GDS flow:
 -Floorplanning
 -Placement of logical cells
 -Clock Tree Synthesis(to get the specified skew)
+
+### Work
+To install all the necessary tools required for the project. I have already installed VirtualBox with Ubuntu 22.04.
+- iverilog
+- gtkwave
+- yosys
 
 ### iverilog
 
