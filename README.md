@@ -77,7 +77,16 @@ graphviz xdot pkg-config python3 libboost-system-dev \ libboost-python-dev libbo
 >make
 
 >sudo make install
-
+ ```bash
+git clone https://github.com/YosysHQ/yosys.git
+cd yosys
+sudo apt install make
+sudo apt-get install build-essential clang bison flex \libreadline-dev gawk tcl-dev libffi-dev git \
+graphviz xdot pkg-config python3 libboost-system-dev \ libboost-python-dev libboost-filesystem-dev zlib1g-dev
+make config-gcc
+make 
+sudo make install
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/6f41ef80-39c0-4206-8017-04f8629178dd)
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/4a9a5ea5-17f9-4841-8244-ac77fe5d1d47)
 
