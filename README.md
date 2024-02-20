@@ -14,19 +14,19 @@ I have installed all the necessary tools required for the project.
 </details>
 
 <details>
-<summary>How do I dropdown?</summary>
+<summary>iverilog</summary>
+<br>
+
+</details>
+
+<details>
+<summary>gtkwave</summary>
 <br>
 This is how you dropdown.
 </details>
 
 <details>
-<summary>How do I dropdown?</summary>
-<br>
-This is how you dropdown.
-</details>
-
-<details>
-<summary>How do I dropdown?</summary>
+<summary>yosys</summary>
 <br>
 This is how you dropdown.
 </details>
