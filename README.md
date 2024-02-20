@@ -16,6 +16,7 @@ I have installed all the necessary tools required for the project.
 <details>
 <summary>iverilog</summary>
 <br>
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/952639c1-96d8-4161-ab7b-e8bff5b1b3be)
 
 </details>
 
