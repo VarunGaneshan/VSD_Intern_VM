@@ -13,15 +13,18 @@ To install all the necessary tools required for the project. I have already inst
 - iverilog
 - gtkwave
 - yosys
-> **Notes:**
+ **Notes:**
 RTL2GDS flow:
 -RTL netlist
--Logical netlist(gates&flipflops)
+-Logic Synthesis tool-**Yosys open synthesis suite**
+-Through Logic synthesis you get Logical netlist(gates&flipflops)
+-IC design flow tool-**Graywolf**
+-Floorplanning
+-Placement of logical cells
+-Clock Tree Synthesis(to get the specified skew)
 
 ### iverilog
 
 ### gtkwave
 
 ### yosys
-Yosys open synthesis suie is the tool used for logic synthesis.
-
