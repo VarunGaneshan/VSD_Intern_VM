@@ -10,6 +10,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 ### Notes
 RTL2GDS flow & tools required:
+>Complete flow toolchain - **Qflow**
 >Static Timing Analysis mandotary at every stage,tool - **Opentimer**
 - RTL netlist
 >Logic Synthesis tool - **Yosys open synthesis suite**
@@ -23,7 +24,7 @@ RTL2GDS flow & tools required:
 - Routing
 - Signoff - gds out to fabrication
 >Pre/Post layout Simulation,tool - **ngSPICE**
->Schematic editor,tool - **esim**
+>Schematic editor,tool - **eSim**
 ### Work
 To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.
 - iverilog
