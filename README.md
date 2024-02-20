@@ -11,9 +11,6 @@ My design is a **Vending Machine with Change System**. The project aims to match
 <summary>Work</summary>
 <br>
 I have installed all the necessary tools required for the project.
-- iverilog
-- gtkwave
-- yosys
 </details>
 
 <details>
