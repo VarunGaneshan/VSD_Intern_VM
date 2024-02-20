@@ -44,6 +44,7 @@ To install all the necessary tools required for this project. I have already ins
 
 <details>
  <summary> iverilog </summary>
+ 
 ```bash
 sudo apt-get install iverilog
 ```
@@ -53,7 +54,9 @@ sudo apt-get install iverilog
 After launch 
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/0238a323-29d9-469f-877a-f63a053e7020)
+
 </details>	
+
 ### gtkwave
 ```bash
 sudo apt update
