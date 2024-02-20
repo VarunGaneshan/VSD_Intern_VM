@@ -4,5 +4,5 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 >Through this Repo, I intend to document my weekly learnings & progress for this project.
 
->[https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](url)
+>[https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](url) - helped me to learn gihub documentation.
 
