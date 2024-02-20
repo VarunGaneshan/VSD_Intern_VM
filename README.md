@@ -13,6 +13,10 @@ To install all the necessary tools required for the project. I have already inst
 - iverilog
 - gtkwave
 - yosys
+> **Notes:**
+RTL2GDS flow:
+-RTL netlist
+-Logical netlist(gates&flipflops)
 
 ### iverilog
 
