@@ -10,6 +10,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 ### Notes:
 RTL2GDS flow:
+>Static Timing Analysis mandotary at every stage,tool -**Opentimer**
 - RTL netlist
 >Logic Synthesis tool-**Yosys open synthesis suite**
 - Through Logic synthesis you get Logical netlist(gates&flipflops)
@@ -17,8 +18,9 @@ RTL2GDS flow:
 - Floorplanning
 - Placement of logical cells
 - Clock Tree Synthesis(to get the specified skew)
->Routing-**Qrouter**
+>Routing toll-**Qrouter**
 - Routing
+- Signoff - gds out to fabrication
 ### Work
 To install all the necessary tools required for the project. I have already installed VirtualBox with Ubuntu 22.04.
 - iverilog
