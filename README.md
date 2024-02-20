@@ -10,7 +10,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 <details>
 <summary>Work</summary>
 <br>
-I have installed all the necessary tools for the project.
+I have installed all the necessary tools required for the project.
 </details>
 
 <details>
