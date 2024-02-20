@@ -57,7 +57,9 @@ After launch
 
 </details>	
 
-### gtkwave
+<details>
+ <summary> gtkwave </summary>
+
 ```bash
 sudo apt update
 sudo apt install gtkwave
@@ -69,7 +71,11 @@ After launch
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/638882c0-5119-481d-860d-679a62039621)
 
-### yosys
+</details>	
+
+<details>
+ <summary> yosys </summary>
+	
  ```bash
 git clone https://github.com/YosysHQ/yosys.git
 cd yosys
@@ -87,3 +93,4 @@ After launch
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/9f4b4e66-3c42-43ef-9c7b-61bb31642816)
 
+</details>	
