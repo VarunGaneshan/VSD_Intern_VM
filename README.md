@@ -36,6 +36,7 @@ RTL2GDS flow & tools required:
 <details>
  <summary> Work </summary>
 To install all the necessary tools required for this project. I have already installed Virtual box with Ubuntu 22.04.
+ 
 - iverilog
 - gtkwave
 - yosys
