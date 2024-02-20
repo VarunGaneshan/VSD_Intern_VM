@@ -61,6 +61,7 @@ After launch
  <summary> gtkwave </summary>
 
 ```bash
+(paste each line seperately)
 sudo apt update
 sudo apt install gtkwave
 ```
@@ -77,6 +78,7 @@ After launch
  <summary> yosys </summary>
 	
  ```bash
+(paste each line seperately)
 git clone https://github.com/YosysHQ/yosys.git
 cd yosys
 sudo apt install make
