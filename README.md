@@ -8,13 +8,13 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 ##  Week1_Task1
 
-### Notes:
-RTL2GDS flow:
+### Notes
+RTL2GDS flow & tools required:
 >Static Timing Analysis mandotary at every stage,tool - **Opentimer**
 - RTL netlist
 >Logic Synthesis tool - **Yosys open synthesis suite**
 - Through Logic synthesis you get Logical netlist(gates&flipflops)
->IC design flow tool - **Graywolf**
+>IC design flow tool(FP,placement,CTS) - **Graywolf**
 - Floorplanning
 - Placement of logical cells
 >Layout viewer at any stage to correct DRC,tool - **MAGIC**
