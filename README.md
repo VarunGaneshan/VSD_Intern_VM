@@ -96,3 +96,15 @@ After launch
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/9f4b4e66-3c42-43ef-9c7b-61bb31642816)
 
 </details>	
+
+###  Week1_Task2
+
+<details>
+ <summary> Work </summary>
+Identify the following for the Vending Machine:
+ 
+- Input ports
+- Output ports
+- Input waveforms
+- Output waveforms
+</details>	
