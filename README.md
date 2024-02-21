@@ -31,7 +31,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 </details>	
 
-###  Week1_Task1
+###  Week1_Task1 (Tool Installation)
 
 <details>
  <summary> Work </summary>
@@ -97,7 +97,7 @@ After launch
 
 </details>	
 
-###  Week1_Task2
+###  Week1_Task2 (Identifying I/O)
 
 <details>
  <summary> Work </summary>
