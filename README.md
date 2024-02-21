@@ -2,7 +2,9 @@
 ## Vending_Machine_with_Change_System
 My design is a **Vending Machine with Change System**. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist as closely as possible.
 
->Through this Repo, I intend to document my weekly learnings & progress for this project.
+>Through this Repo, I intend to document my weekly learnings & progress for this project and also contribute to the opensource community.
+
+>Reach out to me @ [LinkedIn](https://www.linkedin.com/in/varung-1x/)
 
 <details>
  <summary> RTL2GDS flow & tools required </summary> (VSD openEDA course)
