@@ -1,4 +1,4 @@
-# **VSD_Internship_Project**
+# **VSD_Research_Internship_Project**
 ## Vending_Machine_with_Change_System
 My design is a **Vending Machine with Change System**. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist as closely as possible.
 
