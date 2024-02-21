@@ -7,8 +7,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 >Reach out to me @ [LinkedIn](https://www.linkedin.com/in/varung-1x/)
 
 <details>
- <summary> RTL2GDS flow & tools required </summary> (VSD openEDA course)
-	
+ <summary> RTL2GDS flow & tools required(VSD openEDA course) </summary> 
 >Complete flow toolchain - **Qflow**
 
 >Static Timing Analysis mandatory at every stage,tool - **Opentimer**
