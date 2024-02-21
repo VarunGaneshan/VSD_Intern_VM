@@ -5,7 +5,7 @@ My design is a **Vending Machine with Change System**. The project aims to match
 >Through this Repo, I intend to document my weekly learnings & progress for this project.
 
 <details>
- <summary> RTL2GDS flow & tools required </summary>
+ <summary> RTL2GDS flow & tools required </summary> (VSD openEDA course)
 	
 >Complete flow toolchain - **Qflow**
 
