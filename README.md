@@ -76,6 +76,7 @@ After launch
 	
  ```bash
 (paste each line seperately)
+sudo apt-get install git
 git clone https://github.com/YosysHQ/yosys.git
 cd yosys
 sudo apt install make
