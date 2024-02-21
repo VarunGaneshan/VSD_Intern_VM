@@ -4,14 +4,10 @@ My design is a **Vending Machine with Change System**. The project aims to match
 
 >Through this Repo, I intend to document my weekly learnings & progress for this project.
 
->[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic github documentation.Refer to the code of someone's README file to understand the syntax for a particular format that you want to replicate.
-
 <details>
  <summary> RTL2GDS flow & tools required </summary>
 	
 >Complete flow toolchain - **Qflow**
-
-> Refer to this course for all the open source tools installation - [Link](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview) 
 
 >Static Timing Analysis mandatory at every stage,tool - **Opentimer**
 - RTL netlist
@@ -108,3 +104,10 @@ Identify the following for the Vending Machine:
 - Input waveforms
 - Output waveforms
 </details>	
+
+
+###  References 
+
+>[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic github documentation.Refer to the code of someone's README file to understand the syntax for a particular format that you want to replicate.
+
+> Refer to this course for all the open source tools installation - [Link](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview) 
