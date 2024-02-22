@@ -1,4 +1,4 @@
-# **VSD_Research_Internship_Project_VLSI**
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/4d48adf7-4855-4162-89ad-645a1b7261de)# **VSD_Research_Internship_Project_VLSI**
 ## Vending_Machine_with_Change_System
 My design is a **Vending Machine with Change System**. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist as closely as possible.
 
@@ -107,6 +107,12 @@ Identify the following for the Vending Machine:
 - Output waveforms
 </details>	
 
+State Diagram
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ce7754d3-e378-4a7d-8e55-8406f6ad9e39)
+5,5,5
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/233c01ae-9b40-483e-acd8-2f80980ca053)
+5,10
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/45168ca9-2f48-4711-af89-4b11162f8cdb)
 
 ##  References 
 
