@@ -114,6 +114,17 @@ Understand the working of the design and Identify the following for the Vending 
 Block Diagram
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/197aa813-3166-49ce-9ffc-fd0bef84b701)
+
+| S.No   | Name of the Port  | Direction  | Size | Description |
+|------------|------------|------------|--------|-----|
+| 1. | Product     | Output     |1|Product|
+| 2.     | Change    | Input     | 2 |  Only two Coins |
+|      |     |      |  | Rs.1 and Rs.2|
+| 3.     | Coins     | Input     | 1 | Clock Signal|
+| 4.     | Clk   | Output     | 2 |  Only two Coins |
+|      |     |      |  | Rs.1 and Rs.2|
+| 5.     | Rst    | Input     | 1 | Reset Signal|
+
 State Diagram
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ce7754d3-e378-4a7d-8e55-8406f6ad9e39)
 </details>	
