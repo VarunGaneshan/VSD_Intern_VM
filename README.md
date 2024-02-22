@@ -121,9 +121,11 @@ Block Diagram
 | 2.     | Change    | Output     | 2 | Excess Amount that is to be returned |
 |      |     |      |  | Rs.5(01) and Rs.10(10)|
 | 3.     | Coins     | Input     | 2 | Amount Inserted |
-|      |     |      |  | Rs.0(00) , Rs.5(01) and Rs.10(10)|
+|      |     |      |  |Rs.0(00) , Rs.5(01) and Rs.10(10)|
 | 4.     | Clk   | Input      | 1 |  Clock Signal-Synchronize|
 | 5.     | Rst    | Input     | 1 | Reset Signal|
+| 6.     | Current_State    | Intermediate     | 2 | Store the Current State|
+| 7.     | Next_State    | Intermediate     | 2 | Store the Next State|
 
 State Diagram
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ce7754d3-e378-4a7d-8e55-8406f6ad9e39)
