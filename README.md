@@ -8,6 +8,7 @@ I will be implementing an **Ideal** Vending Machine with Change System. The proj
 
 <details>
  <summary> RTL2GDS flow & tools required(VSD openEDA course) </summary> 
+	
 >Complete flow toolchain - **Qflow**
 
 >Static Timing Analysis mandatory at every stage,tool - **Opentimer**
