@@ -117,12 +117,12 @@ Block Diagram
 
 | S.No   | Name of the Port  | Direction  | Size | Description |
 |------------|------------|------------|--------|-----|
-| 1. | Product     | Output     |1|Product|
-| 2.     | Change    | Input     | 2 |  Only two Coins |
-|      |     |      |  | Rs.1 and Rs.2|
-| 3.     | Coins     | Input     | 1 | Clock Signal|
-| 4.     | Clk   | Output     | 2 |  Only two Coins |
-|      |     |      |  | Rs.1 and Rs.2|
+| 1. | Product     | Output     |1| Successful Transaction or not|
+| 2.     | Change    | Output     | 2 | Amount that is excess |
+|      |     |      |  | Rs.5(01) and Rs.10(10)|
+| 3.     | Coins     | Input     | 2 | |
+|      |     |      |  | Rs.0(00) , Rs.5(01) and Rs.10(10)|
+| 4.     | Clk   | Input      | 1 |  Clock Signal-Synchronize|
 | 5.     | Rst    | Input     | 1 | Reset Signal|
 
 State Diagram
