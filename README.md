@@ -108,11 +108,20 @@ Identify the following for the Vending Machine:
 - Output waveforms
 </details>	
 
+<details>
+ <summary> Design </summary>
 Block Diagram
+	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/197aa813-3166-49ce-9ffc-fd0bef84b701)
 
 State Diagram
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ce7754d3-e378-4a7d-8e55-8406f6ad9e39)
+</details>	
+
+<details>
+ <summary> Waveforms </summary>
+
+	
 5,5,5
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/233c01ae-9b40-483e-acd8-2f80980ca053)
 5,10
@@ -121,10 +130,13 @@ State Diagram
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/0d012f06-909e-4e03-abfb-dab5a1902c43)
 10,0
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c6766e91-45fd-48f4-b282-aa9aacf74b4c)
+</details>	
 
 ##  References 
 
-> Refer to this course for all the open source tools installation - [VSD openEDA](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview) 
+> Refer to this course for all the open source tools installation - [VSD openEDA](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview)
+
+>[Link](https://www.youtube.com/watch?v=tJc0blBDRzo)- helped me to understand the working of an ideal vending machine. Also refer to his playlist for more rtl projects in verilog.
 
 >[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic github documentation.Refer to the code of someone's README file to understand the syntax for a particular format that you want to replicate.
 
