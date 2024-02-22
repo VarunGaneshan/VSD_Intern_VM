@@ -117,8 +117,8 @@ Block Diagram
 
 | S.No   | Name of the Port  | Direction  | Size | Description |
 |------------|------------|------------|--------|-----|
-| 1. | Product     | Output     |1| Successful Transaction or not|
-| 2.     | Change    | Output     | 2 | Excess Amount that is to be returned |
+| 1. | Product     | Output     |1| Successful Transaction or Not|
+| 2.     | Change    | Output     | 2 | Excess Amount that is to be Returned |
 |      |     |      |  | Rs.5(01) and Rs.10(10)|
 | 3.     | Coins     | Input     | 2 | Amount Inserted |
 |      |     |      |  |Rs.0(00) , Rs.5(01) and Rs.10(10)|
