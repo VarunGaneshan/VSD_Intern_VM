@@ -1,4 +1,4 @@
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f0ca6d45-0f4f-408e-aeb1-95143f4d8447)![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/4d48adf7-4855-4162-89ad-645a1b7261de)# **VSD_Research_Internship_Project_VLSI**
+# **VSD_Research_Internship_Project_VLSI**
 ## Vending_Machine_with_Change_System
 I will be implementing an **Ideal** Vending Machine with Change System. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist as closely as possible.
 
