@@ -96,18 +96,17 @@ After launch
 
 </details>	
 
-###  Week1_Task2 (Identifying I/O)
+###  Week1_Task2 (Understand your design)
 
 <details>
  <summary> Work </summary>
-Identify the following for the Vending Machine:
+Understand the working of the design and Identify the following for the Vending Machine:
  
 - Input ports
 - Output ports
 - Input waveforms
 - Output waveforms
 
-Basically understand the working of the design.
 </details>	
 
 <details>
