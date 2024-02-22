@@ -106,6 +106,8 @@ Identify the following for the Vending Machine:
 - Output ports
 - Input waveforms
 - Output waveforms
+
+Basically understand the working of the design.
 </details>	
 
 <details>
