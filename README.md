@@ -96,11 +96,11 @@ After launch
 
 </details>	
 
-###  Week1_Task2 (Understand your design)
+###  Week1_Task2 (Understand the design)
 
 <details>
  <summary> Work </summary>
-Understand the working of the design and Identify the following for the Vending Machine:
+Understand the working and Identify the following for the Vending Machine:
  
 - Input ports
 - Output ports
