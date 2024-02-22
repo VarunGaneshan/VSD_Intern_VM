@@ -100,7 +100,7 @@ After launch
 
 <details>
  <summary> Work </summary>
-Understand the working and Identify the following for the Vending Machine:
+Understand the Working and Identify the following for the Vending Machine:
  
 - Input ports
 - Output ports
