@@ -111,7 +111,7 @@ Understand the Working and Identify the following for the Vending Machine:
 
 <details>
  <summary> Design </summary>
-Block Diagram
+### Block Diagram
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/197aa813-3166-49ce-9ffc-fd0bef84b701)
 
