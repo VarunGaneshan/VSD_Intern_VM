@@ -144,6 +144,9 @@ State Diagram
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c6766e91-45fd-48f4-b282-aa9aacf74b4c)
 </details>	
 
+###  Week2_Task1 (Practice the Tools)
+
+
 ##  References 
 
 > Refer to this course for all the open source tools installation - [VSD openEDA](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview)
