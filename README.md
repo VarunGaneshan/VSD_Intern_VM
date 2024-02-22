@@ -96,7 +96,7 @@ After launch
 
 </details>	
 
-###  Week1_Task2 (Understand the design)
+###  Week1_Task2 (Design Specs)
 
 <details>
  <summary> Work </summary>
@@ -110,7 +110,7 @@ Understand the Working and Identify the following for the Vending Machine:
 </details>	
 
 <details>
- <summary> Design </summary>
+ <summary> Specifications </summary>
 ### Block Diagram
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/197aa813-3166-49ce-9ffc-fd0bef84b701)
