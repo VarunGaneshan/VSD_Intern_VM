@@ -110,6 +110,7 @@ Identify the following for the Vending Machine:
 
 Block Diagram
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/197aa813-3166-49ce-9ffc-fd0bef84b701)
+
 State Diagram
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ce7754d3-e378-4a7d-8e55-8406f6ad9e39)
 5,5,5
