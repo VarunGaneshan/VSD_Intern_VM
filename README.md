@@ -165,25 +165,29 @@ Familiarize using the tools for functional simulation:
  <summary> Commands </summary>
 
 ```bash
-
+git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+cd sky130RTLDesignAndSynthesisWorkshop/
 ```
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a2ccbd89-a975-4c4e-96d0-78a03d4d9a63)
 
 ```bash
-
+cd verilog_files/
+ls
 ```
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ba601226-f129-4379-9a38-b3c41c50fcd7)
 
 ```bash
-
+iverilog good_mux.v tb_good_mux.v
 ```
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/42053a23-f2b9-4a5e-a545-cb4f6b05a9b8)
 
 ```bash
-
+ls
+./a.out
+gtkwave tb_good_mux.vcd
 ```
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a6b20985-6253-4380-b6f3-dff7aa5b3b68)
