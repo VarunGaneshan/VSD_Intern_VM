@@ -142,13 +142,17 @@ Understand the Working and Identify the following for the Vending Machine:
 <details>
  <summary> Waveforms </summary>
 
-5,5,5
+<p><bCoin insertion-5,5,5</b></p>
+	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/233c01ae-9b40-483e-acd8-2f80980ca053)
-5,10
+<p><bCoin insertion-5,10</b></p>
+	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/45168ca9-2f48-4711-af89-4b11162f8cdb)
-10,10
+<p><bCoin insertion-10,10</b></p>
+	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/0d012f06-909e-4e03-abfb-dab5a1902c43)
-10,0
+<p><bCoin insertion-10,0</b></p>
+	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c6766e91-45fd-48f4-b282-aa9aacf74b4c)
 </details>	
 
