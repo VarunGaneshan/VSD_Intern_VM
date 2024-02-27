@@ -230,28 +230,40 @@ gtkwave tb_good_mux.vcd
 
 
 ###  Week2_Task2 (Basics of Synthesis,Gate Level Simulation)
+
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ded33780-1437-46d6-a160-78b8d26ca1c2)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3eec8b0c-1b6b-496b-9902-5c223317308c)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/9df95984-17f9-4125-af2a-3b919d9c68e5)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/57febe26-1e45-402e-b8c2-5ba8340027ba)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f488996a-2674-4d68-a924-4c65f6ce9a44)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/31703d43-e3c3-4e2e-ad75-69353a3e1250)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7ae50537-27cb-4dcc-a920-81ad4fc7f642)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/89045b7c-5c0c-4953-894d-c4f74879b343)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/74436368-b327-444a-9e8c-6c3290535876)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cb1535c3-680b-40e3-b22a-d8f804b29445)
-
+```bash
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/39051ab1-8d8b-4439-8e2a-018724a86cbb)
-
 
 
 
