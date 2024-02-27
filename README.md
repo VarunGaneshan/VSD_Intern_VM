@@ -146,6 +146,24 @@ State Diagram
 
 ###  Week2_Task1 (Basics of Functional Simulation)
 
+<details>
+ <summary> Work </summary>
+
+
+</details>	
+
+<details>
+ <summary> Commands </summary>
+
+
+</details>	
+
+<details>
+ <summary> Output waveforms </summary>
+
+
+</details>	
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a2ccbd89-a975-4c4e-96d0-78a03d4d9a63)
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ba601226-f129-4379-9a38-b3c41c50fcd7)
