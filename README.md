@@ -230,6 +230,23 @@ gtkwave tb_good_mux.vcd
 
 
 ###  Week2_Task2 (Basics of Synthesis,Gate Level Simulation)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ded33780-1437-46d6-a160-78b8d26ca1c2)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3eec8b0c-1b6b-496b-9902-5c223317308c)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/9df95984-17f9-4125-af2a-3b919d9c68e5)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/57febe26-1e45-402e-b8c2-5ba8340027ba)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f488996a-2674-4d68-a924-4c65f6ce9a44)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/2fd799c4-fa76-429c-a21f-0705901ce856)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7ae50537-27cb-4dcc-a920-81ad4fc7f642)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/74436368-b327-444a-9e8c-6c3290535876)
+
+
 
 
 ##  References 
