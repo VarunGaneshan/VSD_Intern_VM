@@ -166,7 +166,7 @@ State Diagram
 </details>	
 
 <details>
- <summary> Output waveforms </summary>
+ <summary> Output Waveforms </summary>
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c06300ae-33f8-4424-a199-aacbde8b3303)
 
