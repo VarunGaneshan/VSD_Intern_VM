@@ -196,14 +196,14 @@ Familiarize with using the tools for functional simulation:
 	
 | Select Signal(sel) | Inputs(i1 i0) | Outputs(y) |
 |------------|------------|------------|
-| 0 | 0 0    | 0    |
+| 0     | 0 0    | 0    |
 | 0     | 0 1   | 1     | 
 | 1     | 1 0      | 1     | 
 | 1     | 1 1   | 1      |
 
->sel=0,y=i0 
+>When sel=0,y=i0 
 
->sel=1,y=i1
+>When sel=1,y=i1
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c06300ae-33f8-4424-a199-aacbde8b3303)
 
