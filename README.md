@@ -144,7 +144,7 @@ State Diagram
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c6766e91-45fd-48f4-b282-aa9aacf74b4c)
 </details>	
 
-###  Week2_Task1 (Practice the Tools)
+###  Week2_Task1 (Basics of Functional Simulation)
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a2ccbd89-a975-4c4e-96d0-78a03d4d9a63)
 
