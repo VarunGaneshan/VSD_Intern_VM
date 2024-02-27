@@ -246,6 +246,11 @@ gtkwave tb_good_mux.vcd
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/74436368-b327-444a-9e8c-6c3290535876)
 
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cb1535c3-680b-40e3-b22a-d8f804b29445)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/39051ab1-8d8b-4439-8e2a-018724a86cbb)
+
+
 
 
 
