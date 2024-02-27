@@ -106,8 +106,11 @@ After launch
 Understand the Working and Identify the following for the Vending Machine:
  
 - Input ports
+
 - Output ports
+
 - Input waveforms
+
 - Output waveforms
 
 </details>	
