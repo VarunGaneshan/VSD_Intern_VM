@@ -203,9 +203,9 @@ Familiarize with using the tools for functional simulation:
 
 >When sel=0,y=i0 
 
->When sel=1,y=i1
-
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c06300ae-33f8-4424-a199-aacbde8b3303)
+
+>When sel=1,y=i1
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/8f560e1f-328f-4aa8-b2c7-1a8d4e664658)
 
