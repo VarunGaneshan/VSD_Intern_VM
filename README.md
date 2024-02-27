@@ -117,7 +117,8 @@ Understand the Working and Identify the following for the Vending Machine:
 
 <details>
  <summary> Specifications </summary>
-Block Diagram
+
+<p><b>Block Diagram:</b></p>
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/197aa813-3166-49ce-9ffc-fd0bef84b701)
 
@@ -133,7 +134,8 @@ Block Diagram
 | 6.     | Current_State    | Intermediate     | 2 | Store the Current State|
 | 7.     | Next_State    | Intermediate     | 2 | Store the Next State|
 
-State Diagram
+<p><b>State Diagram:</b></p>
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ce7754d3-e378-4a7d-8e55-8406f6ad9e39)
 </details>	
 
