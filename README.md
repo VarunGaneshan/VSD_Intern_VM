@@ -228,6 +228,10 @@ gtkwave tb_good_mux.vcd
 
 </details>	
 
+
+###  Week2_Task2 (Basics of Synthesis,Gate Level Simulation)
+
+
 ##  References 
 
 > Refer to this course for all the open source tools installation - [VSD openEDA](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview)
