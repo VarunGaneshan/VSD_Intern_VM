@@ -154,16 +154,7 @@ State Diagram
 
 <details>
  <summary> Commands </summary>
-
-
-</details>	
-
-<details>
- <summary> Output waveforms </summary>
-
-
-</details>	
-
+	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a2ccbd89-a975-4c4e-96d0-78a03d4d9a63)
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ba601226-f129-4379-9a38-b3c41c50fcd7)
@@ -172,10 +163,16 @@ State Diagram
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a6b20985-6253-4380-b6f3-dff7aa5b3b68)
 
+</details>	
+
+<details>
+ <summary> Output waveforms </summary>
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c06300ae-33f8-4424-a199-aacbde8b3303)
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/8f560e1f-328f-4aa8-b2c7-1a8d4e664658)
 
+</details>	
 
 ##  References 
 
