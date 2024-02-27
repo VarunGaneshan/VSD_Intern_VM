@@ -148,17 +148,16 @@ State Diagram
 
 <details>
  <summary> Work </summary>
-Familiarize with using the tools for functional simulation:
+Familiarize using the tools for functional simulation:
 
-- Clone the github repo sky130RTLDesignAndSynthesisWorkshop which has standard verilog source file and its testbench.
+- Clone the github repo sky130RTLDesignAndSynthesisWorkshop which has standard verilog source files and its testbench.
   
-- Load a Mux design into the iverilog simulator
+- Load a design into the iverilog simulator
 
 - Execute the a.out file
 
 -  Run the vcd file created in gtkwave simulator
 
--  
 
 </details>	
 
