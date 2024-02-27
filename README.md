@@ -193,7 +193,8 @@ Familiarize with using the tools for functional simulation:
 
 <details>
  <summary> Output Waveforms </summary>
-	
+**Mux truth table:**
+
 | Select Signal(sel) | Inputs(i1 i0) | Outputs(y) |
 |------------|------------|------------|
 | 0     | 0 0    | 0    |
