@@ -235,13 +235,18 @@ gtkwave tb_good_mux.vcd
  <summary> Work </summary>
 Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here to convert RTL(good_mux) to its gate_netlist(F2).
 	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/8ef45e7f-ef37-45bb-bea0-69fe086d2304)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/10c2327e-bdd1-4ced-97c5-6e8fd9f2566e)
 
 </details>	
 
 <details>
  <summary> Theory </summary>
+	
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c4e9c349-5268-40e3-bc76-077ff8dbdd76)
 
+- .lib file is an ASCII representation of timing and power parameter associated with cells inside the standard cell library of a particular technology node.
+
+- netlist is the representation of the design in form of the standard cells in .lib.
 </details>	
 
 <details>
@@ -300,4 +305,6 @@ vim good_mux_netlist.v
 >[Link](https://www.youtube.com/watch?v=tJc0blBDRzo)- helped me to understand the working of an ideal vending machine. Also refer to his playlist for more rtl projects in verilog.
 
 >[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic github documentation.Refer to the code of someone's README file to understand the syntax for a particular format that you want to replicate.
+
+>[Link](https://teamvlsi.com/2020/05/lib-and-lef-file-in-asic-design.html)- about .lib file in vlsi.
 
