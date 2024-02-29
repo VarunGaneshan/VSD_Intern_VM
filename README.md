@@ -247,7 +247,7 @@ Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here t
 
 - .lib file is an ASCII representation of timing and power parameter associated with cells inside the standard cell library of a particular technology node.
 
-- netlist is the representation of the design in form of the standard cells in .lib.
+- netlist file is the representation of the design in form of the standard cells in .lib.
 
 <p><b>Verify the Synthesis:</b></p>
 
