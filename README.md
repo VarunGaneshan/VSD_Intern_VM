@@ -255,7 +255,7 @@ Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here t
 
 - The stimulus generated must match the output from the rtl simulation.
 
-- Primmary Input/Output remains the same in both RTL code & Netlist,So the same testbench can be used for verification.
+- Primary Input/Output remains the same in both RTL code & Netlist,So the same testbench can be used for verification.
 </details>	
 
 <details>
