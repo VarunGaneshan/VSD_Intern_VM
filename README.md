@@ -313,7 +313,9 @@ write_verilog -noattr good_mux_netlist.v
 
 <details>
  <summary> Waveforms from GLS </summary>
+<p><b>Pre-Synthesis Simulation:</b></p>
 
+<p><b>Post-Synthesis Simulation:</b></p>
 </details>	
 
 ##  References 
