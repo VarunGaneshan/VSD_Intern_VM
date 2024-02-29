@@ -314,9 +314,21 @@ write_verilog -noattr good_mux_netlist.v
 <details>
  <summary> Waveforms from GLS </summary>
 <p><b>Pre-Synthesis Simulation:</b></p>
-
+	
+```bash
+sudo apt-get install iverilog
+```
+```bash
+sudo apt-get install iverilog
+```
 <p><b>Post-Synthesis Simulation:</b></p>
-
+	
+```bash
+sudo apt-get install iverilog
+```
+```bash
+sudo apt-get install iverilog
+```
 </details>	
 
 ##  References 
