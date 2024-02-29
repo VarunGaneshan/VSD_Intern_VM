@@ -316,6 +316,7 @@ write_verilog -noattr good_mux_netlist.v
 <p><b>Pre-Synthesis Simulation:</b></p>
 
 <p><b>Post-Synthesis Simulation:</b></p>
+
 </details>	
 
 ##  References 
