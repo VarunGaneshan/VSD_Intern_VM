@@ -312,7 +312,7 @@ write_verilog -noattr good_mux_netlist.v
 </details>	
 
 <details>
- <summary>Waveforms from GLS </summary>
+ <summary> Waveforms from GLS </summary>
 
 </details>	
 
