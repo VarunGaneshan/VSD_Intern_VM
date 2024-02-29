@@ -316,11 +316,15 @@ write_verilog -noattr good_mux_netlist.v
 <p><b>Pre-Synthesis Simulation:</b></p>
 	
 ```bash
-sudo apt-get install iverilog
+iverilog good_mux.v tb_good_mux.v
+./a.out
+gtkwave tb_good_mux.vcd
 ```
-```bash
-sudo apt-get install iverilog
-```
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d2d0cf03-e998-4a61-a9bd-fde71074b171)
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ddff77d8-bfec-4168-ad82-6530e9c1b87d)
+
+
 <p><b>Post-Synthesis Simulation:</b></p>
 	
 ```bash
