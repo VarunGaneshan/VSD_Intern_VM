@@ -233,6 +233,8 @@ gtkwave tb_good_mux.vcd
 
 <details>
  <summary> Work </summary>
+	
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/8ef45e7f-ef37-45bb-bea0-69fe086d2304)
 
 </details>	
 
