@@ -293,11 +293,11 @@ show
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7ae50537-27cb-4dcc-a920-81ad4fc7f642)
 ```bash
-write_verilog good_mux_netlist.v
+write_verilog good_mux_netlist.v #write netlist
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/89045b7c-5c0c-4953-894d-c4f74879b343)
 ```bash
-vim good_mux_netlist.v
+vim good_mux_netlist.v 
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/74436368-b327-444a-9e8c-6c3290535876)
 ```bash
@@ -305,9 +305,10 @@ write_verilog -noattr good_mux_netlist.v
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cb1535c3-680b-40e3-b22a-d8f804b29445)
 ```bash
-vim good_mux_netlist.v
+gvim good_mux_netlist.v
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/39051ab1-8d8b-4439-8e2a-018724a86cbb)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/2c046c13-b81e-4deb-bf27-7ce193c304ec)
+
 
 </details>	
 
