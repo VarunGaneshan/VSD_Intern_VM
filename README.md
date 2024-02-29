@@ -231,6 +231,14 @@ gtkwave tb_good_mux.vcd
 
 ###  Week2_Task2 (Basics of Synthesis,Gate Level Simulation)
 
+<details>
+ <summary> Work </summary>
+
+</details>	
+
+<details>
+ <summary> Commands </summary>
+
 ```bash
 yosys
 ```
@@ -273,6 +281,7 @@ vim good_mux_netlist.v
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/39051ab1-8d8b-4439-8e2a-018724a86cbb)
 
+</details>	
 
 
 
