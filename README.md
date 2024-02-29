@@ -336,6 +336,8 @@ gtkwave tb_good_mux.vcd
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/fa28a05e-8a05-4159-8b16-2cb5a9c07760)
 
+<p><b>We can observe that the results from both functional simulation and gate level simulation match.</b></p>
+
 
 </details>	
 
