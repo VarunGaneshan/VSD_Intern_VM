@@ -266,6 +266,7 @@ yosys
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ded33780-1437-46d6-a160-78b8d26ca1c2)
 ```bash
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 read_verilog good_mux.v
 synth -top good_mux
 ```
