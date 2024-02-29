@@ -233,7 +233,7 @@ gtkwave tb_good_mux.vcd
 
 <details>
  <summary> Work </summary>
-Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here to convert RTL(good_mux) to its gate_netlist(F2).
+Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here to convert RTL(good_mux) to its gate netlist(F2).
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/10c2327e-bdd1-4ced-97c5-6e8fd9f2566e)
 
@@ -241,12 +241,21 @@ Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here t
 
 <details>
  <summary> Theory </summary>
+<p><b>Yosys setup:</b></p>
 	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c4e9c349-5268-40e3-bc76-077ff8dbdd76)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3a8ef4cc-a83c-4364-84da-97b6aa9857ca)
 
 - .lib file is an ASCII representation of timing and power parameter associated with cells inside the standard cell library of a particular technology node.
 
 - netlist is the representation of the design in form of the standard cells in .lib.
+
+<p><b>Verify the Synthesis:</b></p>
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/06322798-9582-423b-b3f6-e9dde7541b6e)
+
+- The stimulus generated must match the output from the rtl simulation.
+
+- Primmary Input/Output remains the same in both RTL code & Netlist,So the same testbench can be used for verification.
 </details>	
 
 <details>
