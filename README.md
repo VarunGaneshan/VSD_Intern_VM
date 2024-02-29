@@ -286,10 +286,11 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib  #generate netlist
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f488996a-2674-4d68-a924-4c65f6ce9a44)
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/31703d43-e3c3-4e2e-ad75-69353a3e1250)
 ```bash
 show 
 ```
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/31703d43-e3c3-4e2e-ad75-69353a3e1250)
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7ae50537-27cb-4dcc-a920-81ad4fc7f642)
 ```bash
 write_verilog good_mux_netlist.v
