@@ -266,20 +266,21 @@ yosys
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ded33780-1437-46d6-a160-78b8d26ca1c2)
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d869b022-4f20-4630-8a5b-8758cd0f67e4)
-
 ```bash
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 read_verilog good_mux.v
 synth -top good_mux
 ```
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d869b022-4f20-4630-8a5b-8758cd0f67e4)
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3eec8b0c-1b6b-496b-9902-5c223317308c)
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/9df95984-17f9-4125-af2a-3b919d9c68e5)
 ```bash
-vim good_mux.v
+gvim good_mux.v
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/57febe26-1e45-402e-b8c2-5ba8340027ba)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/90a5dbfc-a5c7-456c-82b0-9bba1ee7f833)
+
 ```bash
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
 ```
