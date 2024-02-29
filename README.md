@@ -315,6 +315,7 @@ write_verilog -noattr good_mux_netlist.v
  <summary> Commands & Waveforms for GLS </summary>
 
 </details>	
+
 ##  References 
 
 > Refer to this course for all the open source tools installation - [VSD openEDA](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/6719216#overview)
