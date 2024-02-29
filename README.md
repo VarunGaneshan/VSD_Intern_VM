@@ -229,12 +229,18 @@ gtkwave tb_good_mux.vcd
 </details>	
 
 
-###  Week2_Task2 (Basics of Synthesis,Gate Level Simulation)
+###  Week2_Task2 (Basics of Synthesis)
 
 <details>
  <summary> Work </summary>
+Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here to convert RTL(good_mux) to its gate_netlist(F2).
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/8ef45e7f-ef37-45bb-bea0-69fe086d2304)
+
+</details>	
+
+<details>
+ <summary> Theory </summary>
 
 </details>	
 
