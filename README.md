@@ -324,11 +324,11 @@ sudo apt-get install iverilog
 <p><b>Post-Synthesis Simulation:</b></p>
 	
 ```bash
-sudo apt-get install iverilog
+iverilog good_mux_netlist.v tb_good_mux.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ../my_lib/verilog_model/primitives.v
+./a.out
+gtkwave tb_good_mux.vcd
 ```
-```bash
-sudo apt-get install iverilog
-```
+
 </details>	
 
 ##  References 
