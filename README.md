@@ -435,11 +435,13 @@ show
 ```bash
 write_verilog good_mux_netlist.v #write netlist
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/89045b7c-5c0c-4953-894d-c4f74879b343)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/69aa09c5-c4ef-484c-b9ed-b34348669e34)
+
 ```bash
-vim good_mux_netlist.v 
+!gvim good_mux_netlist.v
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/74436368-b327-444a-9e8c-6c3290535876)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/58b86fdb-d45f-4a9d-b746-087414f59c3b)
+
 ```bash
 write_verilog -noattr good_mux_netlist.v
 ```
