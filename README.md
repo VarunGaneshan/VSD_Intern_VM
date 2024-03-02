@@ -168,13 +168,14 @@ Understand the Working and Identify the following for the Vending Machine:
 
 <p><b>Coin insertion-10,10:</b></p>
 	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/0d012f06-909e-4e03-abfb-dab5a1902c43)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/b35dc89b-430d-41f3-9ce9-ee8f8f7983a5)
 
 >Product returned at #25 with change of 5 rs.
 
 <p><b>Coin insertion-10,0:</b></p>
 	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c6766e91-45fd-48f4-b282-aa9aacf74b4c)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cb7ba44c-3452-4e15-8dd3-c392121d503f)
+
 
 >Change of 5 rs returned at #25
 
@@ -525,7 +526,7 @@ gtkwave vending_machine_tb.vcd
 
 <p><b>Coin insertion-10,0:</b></p>
 	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/48b5261e-3c51-48d6-8e19-9654e4f5073b)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/499fe6ea-2b86-4188-b965-958782204518)
 
 <p><b>Post-Synthesis Simulation:</b></p>
 	
