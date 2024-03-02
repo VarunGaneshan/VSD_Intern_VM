@@ -430,6 +430,13 @@ in = 2;
 
 </details>
 
+###  Week3_Task2 (Synthesis,Gate Level Simulation of VM)
+
+<details>
+ <summary> Work </summary>
+Perform synthesis and gls of my VM and verify if the outputs match.
+</details>
+
 <details>
  <summary> Commands for synthesis </summary>
 
