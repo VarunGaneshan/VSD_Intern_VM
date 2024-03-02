@@ -116,8 +116,7 @@ Understand the Working and Identify the following for the Vending Machine:
 </details>	
 
 <details>
- <summary> Specifications </summary>
-
+ <summary> Specifications </summary> 
 <p><b>Block Diagram:</b></p>
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/197aa813-3166-49ce-9ffc-fd0bef84b701)
@@ -134,10 +133,19 @@ Understand the Working and Identify the following for the Vending Machine:
 | 6.     | Current_State    | Intermediate     | 2 | Store the Current State|
 | 7.     | Next_State    | Intermediate     | 2 | Store the Next State|
 
+<p><b>Assumptions:</b></p>
+
+- Only one type product is present in the machine.
+- Each Product costs Rs.15.
+- Only Currency denominations are Rs.5 and Rs.10.
+
 <p><b>State Diagram:</b></p>
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ce7754d3-e378-4a7d-8e55-8406f6ad9e39)
 </details>	
+
+- Each state signifies the current amount which is inside the machine.
+- Ideal Vending machine here means that as shown in S1 to S0 (0/0,c=5) transaction,the machine should return the change when the user does not add the cost amount after waiting for a certain time.
 
 <details>
  <summary> Waveforms </summary>
