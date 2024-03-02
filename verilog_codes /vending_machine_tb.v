@@ -26,12 +26,11 @@ module vending_machine_tb;
     rst = 1;
     clk = 0;
     
-    #6 rst = 0;
-    in = 1;
-    #11 in = 1; 
-    #16 in = 1;
-    #25 $finish;
-    
+	#6 rst = 0;
+	in = 2;
+	#11 in = 0;
+	#25 $finish;
+
   end
   always #5 clk = ~clk;
   
