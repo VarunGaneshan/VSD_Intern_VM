@@ -338,6 +338,71 @@ gtkwave tb_good_mux.vcd
 
 <p><b>We can observe that the results from both functional simulation and gate level simulation match.</b></p>
 
+###  Week3_Task1 (VM-Functional Simulation)
+
+<details>
+ <summary> Work </summary>
+Functional simulation of my vending machine's verilog netlist and testbench in iverilog and gtk wave.
+  
+- Load the design into the iverilog simulator
+
+- Execute the a.out file
+
+-  Run the vcd file created in gtkwave simulator
+
+</details>	
+
+<details>
+ <summary> Commands </summary>
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a2ccbd89-a975-4c4e-96d0-78a03d4d9a63)
+
+```bash
+cd verilog_files/
+ls
+```
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ba601226-f129-4379-9a38-b3c41c50fcd7)
+
+```bash
+iverilog good_mux.v tb_good_mux.v
+```
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/42053a23-f2b9-4a5e-a545-cb4f6b05a9b8)
+
+```bash
+ls
+./a.out
+gtkwave tb_good_mux.vcd
+```
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a6b20985-6253-4380-b6f3-dff7aa5b3b68)
+
+</details>	
+
+<details>
+ <summary> Output Waveforms </summary>
+	
+<p><b>Mux Truth table:</b></p>
+
+| Select Signal(sel) | Inputs(i1 i0) | Outputs(y) |
+|------------|------------|------------|
+| 0     | 0 0    | 0    |
+| 0     | 0 1   | 1     | 
+| 1     | 1 0      | 1     | 
+| 1     | 1 1   | 1      |
+
+>When sel=0,y=i0 
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c06300ae-33f8-4424-a199-aacbde8b3303)
+
+>When sel=1,y=i1
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/8f560e1f-328f-4aa8-b2c7-1a8d4e664658)
+
+</details>	
+
+
 
 </details>	
 
