@@ -338,6 +338,8 @@ gtkwave tb_good_mux.vcd
 
 <p><b>We can observe that the results from both functional simulation and gate level simulation match.</b></p>
 
+</details>	
+
 ###  Week3_Task1 (VM-Functional Simulation)
 
 <details>
@@ -404,7 +406,6 @@ gtkwave tb_good_mux.vcd
 
 
 
-</details>	
 
 ##  References 
 
