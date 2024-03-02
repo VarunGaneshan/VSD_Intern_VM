@@ -385,10 +385,11 @@ gtkwave vending_machine_tb.vcd
  <summary> Output Waveforms </summary>
 
 <p><b>Coin insertion-5,5,5:</b></p>
-	
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/42530122-6d4e-47cd-8e6d-0082a48e9003)
 
 <p><b>Coin insertion-5,10:</b></p>
-	
+
 
 <p><b>Coin insertion-10,10:</b></p>
 	
