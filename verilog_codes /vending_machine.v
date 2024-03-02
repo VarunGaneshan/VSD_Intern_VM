@@ -1,7 +1,7 @@
 module vending_machine(
   input clk,
   input rst,
-  input [1:0]in, // 01 = 5 rs, 10 = 10 rs
+  input [1:0]in, 
   output reg out,
   output reg[1:0] change
   );
@@ -48,7 +48,7 @@ parameter s2 = 2'b10;
           begin
             n_state = s0;
             out = 0;
-            change = 2'b01; //change returned 5 rs
+            change = 2'b01; //change returned 5 rs-ideal
           end
         else if(in == 2'b01)
           begin
@@ -59,7 +59,7 @@ parameter s2 = 2'b10;
         else if(in == 2'b10)
           begin
             n_state = s0;
-            out = 1;
+            out = 1;//product returned
             change = 2'b00;
           end
         s2:  //state 2 : 10 rs
@@ -67,18 +67,18 @@ parameter s2 = 2'b10;
           begin
             n_state = s0;
             out = 0;
-            change = 2'b10;
+            change = 2'b10;//change returned 10 rs-ideal
           end
         else if(in == 2'b01)
           begin
             n_state = s0;
-            out = 1;
+            out = 1;//product returned
             change = 2'b00;
           end
         else if(in == 2'b10)
           begin
             n_state = s0;
-            out = 1;
+            out = 1;//product returned
             change = 2'b01; //change returned 5 rs
           end
       endcase
