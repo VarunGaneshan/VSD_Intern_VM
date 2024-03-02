@@ -434,7 +434,7 @@ in = 2;
 
 <details>
  <summary> Work </summary>
-Perform synthesis and gls of my VM and verify if the outputs match.
+Perform synthesis and GLS of my VM and verify if the outputs match.
 </details>
 
 <details>
