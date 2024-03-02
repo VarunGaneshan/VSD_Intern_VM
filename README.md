@@ -428,10 +428,10 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib  #generate netlist
 ```bash
 show 
 ```
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/08195bd5-d144-41e2-a41a-6b7976245aeb)
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d6def8b6-5fb6-40cb-8a3c-c993de79ea25)
 
-
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7ae50537-27cb-4dcc-a920-81ad4fc7f642)
 ```bash
 write_verilog good_mux_netlist.v #write netlist
 ```
