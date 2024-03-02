@@ -382,29 +382,49 @@ gtkwave vending_machine_tb.vcd
 <details>
  <summary> Output Waveforms </summary>
 
->To change the inputs,change the time specified for input signal in tb.
-
-```verilog
-	#6 rst = 0;
-	in = 1;
-	#11 in = 1;
-	#16 in = 1;
-	#25 $finish;
-```
+>To change the inputs,change the time specifications for input signal in tb.
 
 <p><b>Coin insertion-5,5,5:</b></p>
 
+```verilog
+#6 rst = 0;
+in = 1;
+#11 in = 1;
+#16 in = 1;
+#25 $finish;
+```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/42530122-6d4e-47cd-8e6d-0082a48e9003)
 
 <p><b>Coin insertion-5,10:</b></p>
+
+```verilog
+#6 rst = 0;
+in = 1;
+#11 in = 2;
+#25 $finish;
+```
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/4ccc4b39-403d-42cc-87da-1c3f1ef69eff)
 
 <p><b>Coin insertion-10,10:</b></p>
 
+```verilog
+#6 rst = 0;
+in = 2;
+#11 in = 2;
+#25 $finish;
+```
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/125fb727-0797-4260-b8af-5878fe77005a)
 
 <p><b>Coin insertion-10,0:</b></p>
+
+```verilog
+#6 rst = 0;
+in = 2;
+#11 in = 0;
+#25 $finish;
+```
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/48b5261e-3c51-48d6-8e19-9654e4f5073b)
 
