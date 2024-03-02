@@ -355,7 +355,7 @@ Functional simulation of my vending machine's verilog netlist and testbench in i
 </details>	
 
 <details>
- <summary> Commands </summary
+ <summary> Commands </summary>
 			    
 ```bash
 mkdir VM
@@ -372,12 +372,12 @@ gtkwave vending_machine_tb.vcd
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3507aa35-1e29-4ac1-8748-edba7782d2fa)
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/e70e2faf-368e-443b-941b-b1357be29af0)
-
 ```bash
 ./a.out
 gtkwave vending_machine_tb.vcd
 ```
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/e70e2faf-368e-443b-941b-b1357be29af0)
 
 </details>	
 
