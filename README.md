@@ -367,8 +367,6 @@ gvim vending_machine_tb.v
 ls
 iverilog vending_machine.v vending_machine_tb.v
 ls
-./a.out
-gtkwave vending_machine_tb.vcd
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3507aa35-1e29-4ac1-8748-edba7782d2fa)
 
