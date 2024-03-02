@@ -79,7 +79,7 @@ parameter s2 = 2'b10;
           begin
             n_state = s0;
             out = 1;
-            change = 2'b01; //change returned 5 rs and 1 bottle
+            change = 2'b01; 
           end
       endcase
     end 
