@@ -415,11 +415,10 @@ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib #read .lib,relative p
 read_verilog good_mux.v #read design
 synth -top good_mux #synthesize the module
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d869b022-4f20-4630-8a5b-8758cd0f67e4)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/582c4fcb-d0a4-48ba-b20d-438e0a62daff)
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3eec8b0c-1b6b-496b-9902-5c223317308c)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7669e077-8440-4d0d-8c2b-a829d1b4a556)
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/9df95984-17f9-4125-af2a-3b919d9c68e5)
 ```bash
 gvim good_mux.v
 ```
