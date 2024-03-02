@@ -307,8 +307,7 @@ write_verilog -noattr good_mux_netlist.v
 ```bash
 !gvim good_mux_netlist.v
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cdd19f8b-3250-4e2d-9323-c84a6c0b37b3)
-
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/2c046c13-b81e-4deb-bf27-7ce193c304ec)
 
 </details>	
 
@@ -450,7 +449,7 @@ write_verilog -noattr good_mux_netlist.v
 ```bash
 !gvim good_mux_netlist.v
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/2c046c13-b81e-4deb-bf27-7ce193c304ec)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cdd19f8b-3250-4e2d-9323-c84a6c0b37b3)
 
 </details>	
 
