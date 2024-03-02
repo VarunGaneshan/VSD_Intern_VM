@@ -460,10 +460,11 @@ iverilog good_mux.v tb_good_mux.v
 ./a.out
 gtkwave tb_good_mux.vcd
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d2d0cf03-e998-4a61-a9bd-fde71074b171)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/07370300-e238-4f21-8057-525876a768f6)
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ddff77d8-bfec-4168-ad82-6530e9c1b87d)
-
+<p><b>Coin insertion-10,0:</b></p>
+	
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/48b5261e-3c51-48d6-8e19-9654e4f5073b)
 
 <p><b>Post-Synthesis Simulation:</b></p>
 	
@@ -472,9 +473,10 @@ iverilog good_mux_netlist.v tb_good_mux.v ../my_lib/verilog_model/sky130_fd_sc_h
 ./a.out
 gtkwave tb_good_mux.vcd
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/74e933e4-798a-4753-8c78-141014b79a91)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cd96a50d-b42a-4e73-b746-4a3aec4a431d)
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/fa28a05e-8a05-4159-8b16-2cb5a9c07760)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d8764d78-5641-4031-a050-46eff7f7e421)
+
 
 <p><b>We can observe that the results from both functional simulation and gate level simulation match.</b></p>
 
