@@ -144,6 +144,7 @@ Understand the Working and Identify the following for the Vending Machine:
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ce7754d3-e378-4a7d-8e55-8406f6ad9e39)
 
 - Each state signifies the current amount which is inside the machine.
+- Next state is copied to current state for every cycle.
 - Ideal Vending machine here means that as shown in S1 to S0 (0/0,c=5) transaction,the machine should return the change when the user does not add the cost amount after waiting for a certain time.
 
 </details>	
@@ -151,18 +152,32 @@ Understand the Working and Identify the following for the Vending Machine:
 <details>
  <summary> Waveforms </summary>
 
+>rst off at #6,changes starts to reflect from #10(1st posedge of clk after rst=0).
+
 <p><b>Coin insertion-5,5,5:</b></p>
 	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/233c01ae-9b40-483e-acd8-2f80980ca053)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ae156ab6-a678-4299-9d2a-db0cde92c84c)
+
+>Product returned at #35.
+
 <p><b>Coin insertion-5,10:</b></p>
 	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/45168ca9-2f48-4711-af89-4b11162f8cdb)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/df62856e-9dfe-47c9-92f1-eef945cb9fd9)
+
+>Product returned at #25.
+
 <p><b>Coin insertion-10,10:</b></p>
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/0d012f06-909e-4e03-abfb-dab5a1902c43)
+
+>Product returned at #25 with change of 5 rs.
+
 <p><b>Coin insertion-10,0:</b></p>
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c6766e91-45fd-48f4-b282-aa9aacf74b4c)
+
+>Change of 5 rs returned at #25
+
 </details>	
 
 ###  Week2_Task1 (Basics of Functional Simulation)
