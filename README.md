@@ -410,16 +410,16 @@ yosys
 
 
 ```bash
-read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib #read .lib,relative path wrt verilog_files
-read_verilog good_mux.v #read design
-synth -top good_mux #synthesize the module
+read_liberty -lib /home/varun/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog vending_machine.v
+synth -top vending_machine
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/582c4fcb-d0a4-48ba-b20d-438e0a62daff)
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7669e077-8440-4d0d-8c2b-a829d1b4a556)
 
 ```bash
-abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib  #generate netlist
+abc -liberty /home/varun/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/681c701d-23ef-4dfc-8068-b45fd32b723a)
 
@@ -431,21 +431,21 @@ show
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d6def8b6-5fb6-40cb-8a3c-c993de79ea25)
 
 ```bash
-write_verilog good_mux_netlist.v #write netlist
+write_verilog vending_machine_netlist.v
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/69aa09c5-c4ef-484c-b9ed-b34348669e34)
 
 ```bash
-!gvim good_mux_netlist.v
+!gvim vending_machine_netlist.v 
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/58b86fdb-d45f-4a9d-b746-087414f59c3b)
 
 ```bash
-write_verilog -noattr good_mux_netlist.v
+write_verilog -noattr vending_machine_netlist.v
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cb1535c3-680b-40e3-b22a-d8f804b29445)
 ```bash
-!gvim good_mux_netlist.v
+!gvim vending_machine_netlist.v 
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cdd19f8b-3250-4e2d-9323-c84a6c0b37b3)
 
@@ -456,9 +456,9 @@ write_verilog -noattr good_mux_netlist.v
 <p><b>Pre-Synthesis Simulation:</b></p>
 	
 ```bash
-iverilog good_mux.v tb_good_mux.v
+iverilog vending_machine.v vending_machine_tb.v
 ./a.out
-gtkwave tb_good_mux.vcd
+gtkwave vending_machine_tb.vcd
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/07370300-e238-4f21-8057-525876a768f6)
 
@@ -469,14 +469,15 @@ gtkwave tb_good_mux.vcd
 <p><b>Post-Synthesis Simulation:</b></p>
 	
 ```bash
-iverilog good_mux_netlist.v tb_good_mux.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ../my_lib/verilog_model/primitives.v
+iverilog vending_machine.v vending_machine_tb.v /home/varun/sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model/sky130_fd_sc_hd.v /home/varun/sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model/primitives.v
 ./a.out
-gtkwave tb_good_mux.vcd
+gtkwave vending_machine_tb.vcd
 ```
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cd96a50d-b42a-4e73-b746-4a3aec4a431d)
+<p><b>Coin insertion-10,0:</b></p>
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d8764d78-5641-4031-a050-46eff7f7e421)
-
 
 <p><b>We can observe that the results from both functional simulation and gate level simulation match.</b></p>
 
