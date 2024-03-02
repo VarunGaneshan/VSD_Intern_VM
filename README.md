@@ -526,7 +526,7 @@ gtkwave vending_machine_tb.vcd
 
 <p><b>Coin insertion-10,0:</b></p>
 	
-[image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/48b5261e-3c51-48d6-8e19-9654e4f5073b)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/48b5261e-3c51-48d6-8e19-9654e4f5073b)
 
 <p><b>Post-Synthesis Simulation:</b></p>
 	
