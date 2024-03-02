@@ -382,6 +382,16 @@ gtkwave vending_machine_tb.vcd
 <details>
  <summary> Output Waveforms </summary>
 
+>To change the inputs,change the time specified for input signal in tb.
+
+```verilog
+	#6 rst = 0;
+	in = 1;
+	#11 in = 1;
+	#16 in = 1;
+	#25 $finish;
+```
+
 <p><b>Coin insertion-5,5,5:</b></p>
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/42530122-6d4e-47cd-8e6d-0082a48e9003)
