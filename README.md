@@ -408,7 +408,8 @@ gtkwave vending_machine_tb.vcd
 ```bash
 yosys
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ded33780-1437-46d6-a160-78b8d26ca1c2)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c9124eb3-70c5-440a-8f41-44b8ca6c71f5)
+
 
 ```bash
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib #read .lib,relative path wrt verilog_files
@@ -420,19 +421,15 @@ synth -top good_mux #synthesize the module
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7669e077-8440-4d0d-8c2b-a829d1b4a556)
 
 ```bash
-gvim good_mux.v
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/90a5dbfc-a5c7-456c-82b0-9bba1ee7f833)
-
-```bash
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib  #generate netlist
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f488996a-2674-4d68-a924-4c65f6ce9a44)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/681c701d-23ef-4dfc-8068-b45fd32b723a)
 
 ```bash
 show 
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/31703d43-e3c3-4e2e-ad75-69353a3e1250)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d6def8b6-5fb6-40cb-8a3c-c993de79ea25)
+
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7ae50537-27cb-4dcc-a920-81ad4fc7f642)
 ```bash
