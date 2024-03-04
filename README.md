@@ -455,7 +455,7 @@ in = 2;
 
 </details>
 
-###  Week3_Task2 (Synthesis,Gate Level Simulation of VM)
+###  Week3_Task2 (VM-Synthesis,Gate Level Simulation)
 
 <details>
  <summary> Work </summary>
