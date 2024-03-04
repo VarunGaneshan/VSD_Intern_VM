@@ -36,6 +36,7 @@ I will be implementing an **Ideal** Vending Machine with Change System. The proj
 <details>
  <summary> Work </summary>
 To install all the necessary tools required for this project.Refer to the course(VSD openEDA) to install Virtual box with Ubuntu 20.04+,allocate 6-8GB RAM,4CPU and 40GB Disk Space.Install the following tools:
+	
 - iverilog
 
 - gtkwave
