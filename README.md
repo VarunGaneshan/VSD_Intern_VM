@@ -1,6 +1,7 @@
 # **VSD_Research_Internship_Project_VLSI**
 ## Vending_Machine_with_Change_System
 I will be implementing an **Ideal** Vending Machine with Change System. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist as closely as possible.
+**Technology used: Sky130 technology**
 
 >Through this Repo, I intend to document my weekly learnings & progress for this project and also contribute to the opensource community.
 
