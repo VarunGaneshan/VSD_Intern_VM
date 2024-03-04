@@ -146,7 +146,7 @@ Understand the Working and Identify the following for the Vending Machine:
 
 - Each state signifies the current amount which is inside the machine.
 - Next state is copied to current state for every cycle.
-- Ideal Vending machine here means that as shown in S1 to S0 (0/0,c=5) transaction,the machine should return the change when the user does not add the cost amount after waiting for a certain time.
+- Ideal Vending machine here means,as shown in S1 to S0 (0/0,c=5) transaction,the machine should return the change when the user does not add the cost amount after waiting for a certain time(here the end of simulation).
 
 </details>	
 
