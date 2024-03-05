@@ -320,6 +320,8 @@ Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here t
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3a8ef4cc-a83c-4364-84da-97b6aa9857ca)
 
+- The synthesis tool takes the RTL design and the liberty file(.lib) as inputs and synthesize the RTL design into netlist which is the gate level representation of the RTL design.
+
 - .lib file is an ASCII representation of timing and power parameter associated with cells inside the standard cell library of a particular technology node.
 
 - netlist file is the representation of the design in form of the standard cells in .lib.
@@ -347,6 +349,13 @@ read_verilog good_mux.v #read design
 synth -top good_mux #synthesize the module
 ```
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d869b022-4f20-4630-8a5b-8758cd0f67e4)
+>read_liberty : It read cells from liberty file as modules into current design. The option "-lib" only create empty blackbox modules.
+
+>read_verilog : This command is used to read the verilog desgin file. It load modules from a Verilog file to the current design.
+
+>synth : This command runs the default synthesis script. This command does not operate on partly selected designs.
+
+>-top : This option use the specified module as top module (default='top'). Here we have module name "good_mux".
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3eec8b0c-1b6b-496b-9902-5c223317308c)
 
@@ -359,17 +368,27 @@ gvim good_mux.v
 ```bash
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib  #generate netlist
 ```
+>abc : This pass uses the ABC tool for technology mapping of yosys's internal gate library to a target architecture. This command converts RTL code into gates,cells which is taken from the sky130_fd_sc_hd__tt_025C_1v80.lib file.
+
+>-liberty : It generate netlists for the specified cell library (using the liberty file format).
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f488996a-2674-4d68-a924-4c65f6ce9a44)
 
 ```bash
 show 
 ```
+>Show : It creates graphviz DOT file for the selected part of the design and compile it to a graphics file (usually SVG or PostScript).It is used to show the logic realized from the verilog code after synthesis.
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/31703d43-e3c3-4e2e-ad75-69353a3e1250)
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7ae50537-27cb-4dcc-a920-81ad4fc7f642)
 ```bash
 write_verilog good_mux_netlist.v #write netlist
 ```
+>write_verilog : It write the current design to a Verilog file.
+
+>good_mux_netlist.v : File name to which we want to write the netlist.
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/89045b7c-5c0c-4953-894d-c4f74879b343)
 ```bash
 vim good_mux_netlist.v 
@@ -378,6 +397,8 @@ vim good_mux_netlist.v
 ```bash
 write_verilog -noattr good_mux_netlist.v
 ```
+> -noattr :By using this option no attributes are included in the output.
+
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cb1535c3-680b-40e3-b22a-d8f804b29445)
 ```bash
 !gvim good_mux_netlist.v
