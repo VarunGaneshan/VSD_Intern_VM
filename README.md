@@ -302,6 +302,7 @@ The sky130_fd_sc_hd library is designed for high density. This library enables h
 <p><b>Liberty file(.lib):</b></p>
 Liberty files are a IEEE Standard for defining PVT Characterization, Relating Input and Output Characteristics, Timing, Power, Noise parameter associated with cells inside the standard cell library of a particular technology node. Liberty is an ASCII format, usually represented in a text file with extension ".lib". It is an industry standard format used to describe library cells of a particular technology. It is a collection of logic module/Standard cells. It includes different types of gates and different flavours of these gates.
 
+
 <p><b>Verify the Synthesis:</b></p>
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/06322798-9582-423b-b3f6-e9dde7541b6e)
