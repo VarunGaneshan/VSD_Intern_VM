@@ -312,9 +312,11 @@ Liberty files are a IEEE Standard for defining PVT Characterization, Relating In
   
 - It verifies the logical correctness of the design after synthesis, ensuring that the functionality remains intact.It also ensures that the timing requirements of the design are met. This often necessitates running GLS with delay annotation, a practice known as Timing-Aware GLS, which accounts for timing constraints and delays introduced during synthesis.
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/06322798-9582-423b-b3f6-e9dde7541b6e)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/b50533bb-501e-40a5-a7cd-7e40a167a310)
 
-
+>Gate level verilog model : It is one of the input to iverilog. It is used to tell iverilog about the standard cell models used in generated netlist after synthesis. The gate level verilog model can be
+ - Functional : It can validates the functionality of the design alone.
+ - Timing aware : It can validate functinality and can ensure timing both.
 </details>	
 
 <details>
