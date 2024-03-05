@@ -241,11 +241,15 @@ The iverilog simulator generates a value change dump (.vcd) file as its output. 
 
 <details>
  <summary> Commands </summary>
+<p><b>Setup:</b></p>
 
 ```bash
 git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 cd sky130RTLDesignAndSynthesisWorkshop/
 ```
+>lib: Contains sky130 standard cell library(sky130_fd_sc_hd__tt_025C_1v80.lib)
+
+>verilog_model: Contains verilog model of standard cells in lib directory(primitives.v,sky130_fd_sc_hd.v)
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/a2ccbd89-a975-4c4e-96d0-78a03d4d9a63)
 
@@ -255,6 +259,8 @@ ls
 ```
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/ba601226-f129-4379-9a38-b3c41c50fcd7)
+
+<p><b>Simulation of Multiplexer:</b></p>
 
 ```bash
 iverilog good_mux.v tb_good_mux.v
