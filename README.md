@@ -101,21 +101,6 @@ After launch
 </details>	
 
 ###  Week1_Task2 (Design Specs)
-
-<details>
- <summary> Work </summary>
-Understand the Working and Identify the following for the Vending Machine:
- 
-- Input ports
-
-- Output ports
-
-- Input waveforms
-
-- Output waveforms
-
-</details>	
-
 <details>
  <summary> Specifications </summary> 
 <p><b>Block Diagram:</b></p>
@@ -183,22 +168,6 @@ Understand the Working and Identify the following for the Vending Machine:
 </details>	
 
 ###  Week2_Task1 (Basics of Functional Simulation)
-
-<details>
- <summary> Work </summary>
-Familiarize using the tools for functional simulation:
-
-- Clone the github repo sky130RTLDesignAndSynthesisWorkshop which has standard verilog source files and its testbench.
-  
-- Load a design into the iverilog simulator
-
-- Execute the a.out file
-
--  Run the vcd file created in gtkwave simulator
-
-
-</details>	
-
 <details>
  <summary> Theory </summary>
 	
@@ -305,22 +274,13 @@ gtkwave tb_good_mux.vcd
 
 
 ###  Week2_Task2 (Basics of Synthesis,Gate Level Simulation)
-
-<details>
- <summary> Work </summary>
-Familiarize with the commands for Synthesis.Yosys is the Synthesizer used here to convert RTL(good_mux) to its gate netlist(F2).
-	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/10c2327e-bdd1-4ced-97c5-6e8fd9f2566e)
-
-</details>	
-
 <details>
  <summary> Theory </summary>
 <p><b>Yosys setup:</b></p>
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3a8ef4cc-a83c-4364-84da-97b6aa9857ca)
 
-- The synthesis tool takes the RTL design and the liberty file(.lib) as inputs and synthesize the RTL design into netlist which is the gate level representation of the RTL design.
+- The synthesis tool(Yosys) takes the RTL design and the liberty file(.lib) as inputs and synthesize the RTL design into netlist which is the gate level representation of the RTL design.
 
 - .lib file is an ASCII representation of timing and power parameter associated with cells inside the standard cell library of a particular technology node.
 
