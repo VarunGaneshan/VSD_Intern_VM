@@ -226,14 +226,17 @@ Familiarize using the tools for functional simulation:
 
 <p><b>Simulation Flow:</b></p>
 
-- Inputs to the simulator:
-The iverilog simulator processes two primary inputs:
+- Input to Iverilog: Iverilog takes the RTL design (written in Verilog) and the corresponding test bench as input.
 
-   * RTL Design: This represents the behavioral description of the specifications in a hardware description language (HDL), such as Verilog.
-   * Test Bench: The test bench serves as the environment to apply stimuli or test vectors to the design, ensuring functionality and correctness. It instantiates the Verilog module of the design and provides stimuli to the input ports of the RTL design.
+- Compilation: Iverilog compiles the RTL design and the test bench, generating an executable file named "a.out".
 
-- Output of the simulator:
-The iverilog simulator generates a value change dump (.vcd) file as its output. This file captures the changes in signal values during simulation. The vcd file can be visualized using the GTKWave viewer tool, facilitating the analysis of simulation results.
+- Execution: Executing "a.out" triggers the simulation process.
+
+- Simulation Output: During simulation, "a.out" produces simulation data in the form of a value change dump (.vcd) file.
+
+- Visualization with GTKWave: The generated .vcd file is then utilized by GTKWave, a waveform viewer tool.
+
+- Displaying Simulation Waveform: GTKWave interprets the .vcd file and displays the simulation waveform, enabling users to analyze the behavior of the design over time.
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f25d9598-60c4-425f-b694-8e22d2a495e7)
 
