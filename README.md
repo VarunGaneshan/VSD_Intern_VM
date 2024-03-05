@@ -514,37 +514,7 @@ write_verilog -noattr vending_machine_netlist.v
 
 </details>	
 
-<details>
- <summary> Waveforms from GLS </summary>
-<p><b>Pre-Synthesis Simulation:</b></p>
-	
-```bash
-iverilog vending_machine.v vending_machine_tb.v
-./a.out
-gtkwave vending_machine_tb.vcd
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/07370300-e238-4f21-8057-525876a768f6)
 
-<p><b>Coin insertion-10,0:</b></p>
-	
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/48b5261e-3c51-48d6-8e19-9654e4f5073b)
-
-<p><b>Post-Synthesis Simulation:</b></p>
-	
-```bash
-iverilog vending_machine.v vending_machine_tb.v /home/varun/sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model/sky130_fd_sc_hd.v /home/varun/sky130RTLDesignAndSynthesisWorkshop/my_lib/verilog_model/primitives.v
-./a.out
-gtkwave vending_machine_tb.vcd
-```
-
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cd96a50d-b42a-4e73-b746-4a3aec4a431d)
-<p><b>Coin insertion-10,0:</b></p>
-
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d8764d78-5641-4031-a050-46eff7f7e421)
-
-<p><b>We can observe that the results from both functional simulation and gate level simulation match.</b></p>
-
-</details>	
 
 ##  References 
 
