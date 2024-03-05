@@ -4,7 +4,7 @@ I will be implementing an **Ideal** Vending Machine with Change System. The proj
 
 **Technology used: Sky130 technology**
 
->Through this Repo, I intend to document my weekly learnings & progress for this project and also contribute to the opensource community.
+>Through this Repo, I intend to document my weekly learnings & progress of this project and also contribute to the opensource community.
 
 >Reach out to me @ [LinkedIn](https://www.linkedin.com/in/varung-1x/)
 
@@ -109,7 +109,7 @@ After launch
 
 | S.No   | Name of the Port  | Direction  | Size | Description |
 |------------|------------|------------|--------|-----|
-| 1. | Product     | Output     |1| Successful Transaction or Not|
+| 1. | Product     | Output     |1| Successful Transaction(1) or Not(0)|
 | 2.     | Change    | Output     | 2 | Excess Amount that is to be Returned |
 |      |     |      |  | Rs.5(01) and Rs.10(10)|
 | 3.     | Coins     | Input     | 2 | Amount Inserted |
@@ -280,7 +280,7 @@ gtkwave tb_good_mux.vcd
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3a8ef4cc-a83c-4364-84da-97b6aa9857ca)
 
-- The synthesis tool(Yosys) takes the RTL design and the liberty file(.lib) as inputs and synthesize the RTL design into netlist which is the gate level representation of the RTL design in form of the standard cells in .lib.
+- The synthesis tool(Yosys) takes the RTL design and the liberty file(.lib) as inputs and synthesize the RTL design into netlist which is the gate level representation of the design in form of the standard cells in .lib.
 
 <p><b>SKY130 PDK libraries:</b></p>
 There are seven standard cell libraries provided directly by the SkyWater Technology foundry available for use on SKY130 designs, which differ in intended applications and come in three separate cell heights.Libraries in the SKY130 PDK are named using the following scheme:
