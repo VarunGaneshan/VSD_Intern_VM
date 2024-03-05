@@ -289,6 +289,7 @@ There are seven standard cell libraries provided directly by the SkyWater Techno
 <Process name> _ <Library Source Abbreviation> _ <Library Type Abbreviation> [_ <Library Name>]	
 ```
 <p><b>sky130_fd_sc_hd__tt_025C_1v80.lib:</b></p>
+The sky130_fd_sc_hd library is designed for high density. This library enables higher routed gated density, lower dynamic power consumption, and comparable timing and leakage power. As a trade-off it has lower drive strength.
 
 - Sky130 : It is the name of the process technology.
 - fd     : It is abbreviation for who created and is responsible for the library, here the SkyWater Foundry.
@@ -298,6 +299,8 @@ There are seven standard cell libraries provided directly by the SkyWater Techno
 - 025c   : It shows the temperature(25C).
 - 1v80	 : It shows the operating process voltage.
 
+<p><b>Liberty file(.lib):</b></p>
+Liberty files are a IEEE Standard for defining PVT Characterization, Relating Input and Output Characteristics, Timing, Power, Noise parameter associated with cells inside the standard cell library of a particular technology node. Liberty is an ASCII format, usually represented in a text file with extension ".lib". It is an industry standard format used to describe library cells of a particular technology. It is a collection of logic module/Standard cells. It includes different types of gates and different flavours of these gates.
 
 <p><b>Verify the Synthesis:</b></p>
 
