@@ -276,7 +276,7 @@ gtkwave tb_good_mux.vcd
 ###  Week2_Task2 (Basics of Synthesis,Gate Level Simulation)
 <details>
  <summary> Theory </summary>
-<p><b>Yosys setup:</b></p>
+<p><b>Synthesis:</b></p>
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3a8ef4cc-a83c-4364-84da-97b6aa9857ca)
 
@@ -302,14 +302,19 @@ The sky130_fd_sc_hd library is designed for high density. This library enables h
 <p><b>Liberty file(.lib):</b></p>
 Liberty files are a IEEE Standard for defining PVT Characterization, Relating Input and Output Characteristics, Timing, Power, Noise parameter associated with cells inside the standard cell library of a particular technology node. Liberty is an ASCII format, usually represented in a text file with extension ".lib". It is an industry standard format used to describe library cells of a particular technology. It is a collection of logic module/Standard cells. It includes different types of gates and different flavours of these gates.
 
-
 <p><b>Verify the Synthesis:</b></p>
+
+- Gate Level Simulation (GLS) serves as a crucial step in the verification process of a design implementation. It enhances confidence by validating dynamic circuit behavior, which cannot be accurately verified through static methods alone. GLS is particularly important due to its ability to overcome the limitations of static-timing analysis and address emerging challenges such as low power concerns, complex timing checks, design for test (DFT) insertion at the gate level, and other low-power considerations.
+
+- The term "gate level" in GLS refers to the netlist view of a circuit, typically generated through logic synthesis. Unlike RTL simulation, which occurs pre-synthesis, GLS operates post-synthesis. The netlist view comprises a comprehensive connection list featuring gates and IP models with full functional and timing behavior.
+
+- During GLS, the test bench is executed with the "Synthesized Netlist" as the Design under Test (DUT). Since the netlist maintains logical equivalence with the RTL code, the same test bench used for RTL simulation can often be leveraged.
+  
+- It verifies the logical correctness of the design after synthesis, ensuring that the functionality remains intact.It also ensures that the timing requirements of the design are met. This often necessitates running GLS with delay annotation, a practice known as Timing-Aware GLS, which accounts for timing constraints and delays introduced during synthesis.
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/06322798-9582-423b-b3f6-e9dde7541b6e)
 
-- The stimulus generated must match the output from the rtl simulation.
 
-- Primary Input/Output remains the same in both RTL code & Netlist,So the same testbench can be used for verification.
 </details>	
 
 <details>
