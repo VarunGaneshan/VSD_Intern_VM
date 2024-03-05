@@ -201,12 +201,41 @@ Familiarize using the tools for functional simulation:
 
 <details>
  <summary> Theory </summary>
-- RTL Design : It is the actual verilog code or set of verilog codes which has intended functionality to meet with the required specifications.
-		Register Transfer Level (RTL) is an abstraction for defining the digital portions of a design. It is the principle abstraction used for 			defining electronic systems today and often serves as the golden model in the design and verification flow. The RTL design is usually 				captured using a hardware description language (HDL) such as Verilog or VHDL.
 	
-- Test Bench : It is the setup to apply stimulus(test_vectors) to the design to check its functionality. So to ensure that our design is obeying the 		  		required specification, we apply stimulus to the design ,observe its output and match it with respect to the specification.
-	
+<p><b>Introduction:</b></p>
 
+- RTL Design: RTL Design refers to the actual Verilog code or a set of Verilog codes that encapsulates the intended functionality to fulfill specified requirements. Register Transfer Level (RTL) serves as an abstraction for defining the digital aspects of a design, representing a fundamental framework in contemporary electronic system definitions. Often regarded as the cornerstone in the design and verification process, RTL design is typically expressed using hardware description languages (HDL) like Verilog or VHDL.
+
+- Test Bench: A test bench constitutes the environment set up to provide stimuli (test vectors) to the design under evaluation to assess its functionality. By subjecting the design to stimuli and observing its outputs, one ensures compliance with the specified requirements. This process involves verifying whether the design's behavior aligns with the given specifications.
+	
+- Simulation: Simulation involves executing the design model written in HDL, following successful compilation and elaboration, based on a specified execution model. Utilizing simulation software (simulator), it verifies the functional correctness of a digital design described in a hardware description language (HDL) such as VHDL or Verilog. It ensures adherence to given specifications.
+
+- Simulator: A tool used for simulating the design, such as "iverilog" in this context. RTL design embodies the required specifications' implementation, and its functionality is verified by simulating the design using a simulator.
+
+- How does a simulator work? A simulator operates by continuously monitoring input changes. Upon any alteration in inputs, the output undergoes re-evaluation. If there is no input change, output evaluation is bypassed. The simulator records input changes and corresponding output states into a file.
+  
+<p><b>Design and Test Bench setup:</b></p>
+
+- The Verilog code representing the RTL design typically features primary inputs and primary outputs, which may vary in number. These primary inputs and outputs serve as the interfaces between the design and its external environment.
+
+- To validate the functionality of the design, stimuli must be applied to all primary inputs, and the resulting behavior at the primary outputs must be observed. This necessitates the use of a stimulus generator at the input and a stimulus observer at the output.
+
+- In the test bench, the design module is instantiated, allowing stimuli to be applied. It's essential to understand that while the test bench orchestrates the testing process by instantiating the design module and applying stimuli, it itself does not possess any primary inputs or outputs. Instead, it serves as the framework within which the design is tested, facilitating the verification process without directly interacting with the design's primary interfaces.
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d6b61c59-91ef-499c-bb8d-75bde0340e65)
+
+<p><b>Simulation Flow:</b></p>
+
+- Inputs to the simulator:
+The iverilog simulator processes two primary inputs:
+
+   * RTL Design: This represents the behavioral description of the specifications in a hardware description language (HDL), such as Verilog.
+   * Test Bench: The test bench serves as the environment to apply stimuli or test vectors to the design, ensuring functionality and correctness. It instantiates the Verilog module of the design and provides stimuli to the input ports of the RTL design.
+
+- Output of the simulator:
+The iverilog simulator generates a value change dump (.vcd) file as its output. This file captures the changes in signal values during simulation. The vcd file can be visualized using the GTKWave viewer tool, facilitating the analysis of simulation results.
+
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f25d9598-60c4-425f-b694-8e22d2a495e7)
 
 </details>	
 
