@@ -200,6 +200,17 @@ Familiarize using the tools for functional simulation:
 </details>	
 
 <details>
+ <summary> Theory </summary>
+- RTL Design : It is the actual verilog code or set of verilog codes which has intended functionality to meet with the required specifications.
+		Register Transfer Level (RTL) is an abstraction for defining the digital portions of a design. It is the principle abstraction used for 			defining electronic systems today and often serves as the golden model in the design and verification flow. The RTL design is usually 				captured using a hardware description language (HDL) such as Verilog or VHDL.
+	
+- Test Bench : It is the setup to apply stimulus(test_vectors) to the design to check its functionality. So to ensure that our design is obeying the 		  		required specification, we apply stimulus to the design ,observe its output and match it with respect to the specification.
+	
+
+
+</details>	
+
+<details>
  <summary> Commands </summary>
 
 ```bash
