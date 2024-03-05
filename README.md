@@ -456,63 +456,6 @@ in = 2;
 
 </details>
 
-###  Week3_Task2 (VM-Synthesis,Gate Level Simulation)
-
-<details>
- <summary> Work </summary>
-Perform synthesis and GLS of my vending machine and verify if the outputs match.
-</details>
-
-<details>
- <summary> Commands for synthesis </summary>
-
-```bash
-yosys
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/c9124eb3-70c5-440a-8f41-44b8ca6c71f5)
-
-
-```bash
-read_liberty -lib /home/varun/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-read_verilog vending_machine.v
-synth -top vending_machine
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/582c4fcb-d0a4-48ba-b20d-438e0a62daff)
-
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/7669e077-8440-4d0d-8c2b-a829d1b4a556)
-
-```bash
-abc -liberty /home/varun/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/681c701d-23ef-4dfc-8068-b45fd32b723a)
-
-```bash
-show 
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/08195bd5-d144-41e2-a41a-6b7976245aeb)
-
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d6def8b6-5fb6-40cb-8a3c-c993de79ea25)
-
-```bash
-write_verilog vending_machine_netlist.v
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/69aa09c5-c4ef-484c-b9ed-b34348669e34)
-
-```bash
-!gvim vending_machine_netlist.v 
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/58b86fdb-d45f-4a9d-b746-087414f59c3b)
-
-```bash
-write_verilog -noattr vending_machine_netlist.v
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cb1535c3-680b-40e3-b22a-d8f804b29445)
-```bash
-!gvim vending_machine_netlist.v 
-```
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cdd19f8b-3250-4e2d-9323-c84a6c0b37b3)
-
-</details>	
 
 
 
