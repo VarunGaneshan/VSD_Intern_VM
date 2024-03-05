@@ -315,8 +315,8 @@ Liberty files are a IEEE Standard for defining PVT Characterization, Relating In
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/b50533bb-501e-40a5-a7cd-7e40a167a310)
 
 - Gate level verilog model : It is one of the input to iverilog. It is used to tell iverilog about the standard cell models used in generated netlist after synthesis. The gate level verilog model can be:
- - Functional : It can validates the functionality of the design alone.
- - Timing aware : It can validate functinality and can ensure timing both.
+ 	 * Functional : It can validates the functionality of the design alone.
+ 	 * Timing aware : It can validate functinality and can ensure timing both.
 </details>	
 
 <details>
