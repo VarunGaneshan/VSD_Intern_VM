@@ -280,11 +280,24 @@ gtkwave tb_good_mux.vcd
 	
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3a8ef4cc-a83c-4364-84da-97b6aa9857ca)
 
-- The synthesis tool(Yosys) takes the RTL design and the liberty file(.lib) as inputs and synthesize the RTL design into netlist which is the gate level representation of the RTL design.
+- The synthesis tool(Yosys) takes the RTL design and the liberty file(.lib) as inputs and synthesize the RTL design into netlist which is the gate level representation of the RTL design in form of the standard cells in .lib.
 
-- .lib file is an ASCII representation of timing and power parameter associated with cells inside the standard cell library of a particular technology node.
+<p><b>SKY130 PDK libraries:</b></p>
+There are seven standard cell libraries provided directly by the SkyWater Technology foundry available for use on SKY130 designs, which differ in intended applications and come in three separate cell heights.Libraries in the SKY130 PDK are named using the following scheme:
 
-- netlist file is the representation of the design in form of the standard cells in .lib.
+```bash
+<Process name> _ <Library Source Abbreviation> _ <Library Type Abbreviation> [_ <Library Name>]	
+```
+<p><b>sky130_fd_sc_hd__tt_025C_1v80.lib:</b></p>
+
+- Sky130 : It is the name of the process technology.
+- fd     : It is abbreviation for who created and is responsible for the library, here the SkyWater Foundry.
+- sc 	 : It is abbreviation for the type of content found in the library, here the Digital Standard Cells.
+- hd	 : It represents high density.
+- tt	 : It shows the typical process corner.
+- 025c   : It shows the temperature(25C).
+- 1v80	 : It shows the operating process voltage.
+
 
 <p><b>Verify the Synthesis:</b></p>
 
