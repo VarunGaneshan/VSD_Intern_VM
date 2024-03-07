@@ -521,7 +521,7 @@ synth -top vending_machine
 ```bash
 dfflibmap -liberty /home/varun/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
->While synthesizing RTL code for flops we need to use this command,beacuse in the library flow, there will be separate library for flops and standard cells. So we need to explicitly tell the tool where to pickup flops in the design from. In our case we have same library for both , so we have used same library path for invoking dfflibmap command.
+>While synthesizing RTL code for flops we need to use this command,because in the library flow, there will be separate library for flops and standard cells. So we need to explicitly tell the tool where to pickup flops in the design from. In our case we have same library for both , so we have used same library path for invoking dfflibmap command.
 
 ![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/f98f2961-43fa-4026-b712-dba26dae3f44)
 
@@ -554,7 +554,7 @@ show
 ```bash
 write_verilog vending_machine_netlist.v
 ```
-exc![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/6800edd9-df14-459e-b92e-c7503e40fa12)
+![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/6800edd9-df14-459e-b92e-c7503e40fa12)
 
 
 ```bash
