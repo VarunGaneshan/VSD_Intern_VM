@@ -424,14 +424,6 @@ gtkwave tb_good_mux.vcd
 
 <details>
  <summary> Work </summary>
-Functional simulation of my vending machine's verilog netlist and testbench in iverilog and gtk wave.
-  
-- Load the design into the iverilog simulator
-
-- Execute the a.out file
-
--  Run the vcd file created in gtkwave simulator
-
 </details>	
 
 <details>
@@ -511,11 +503,6 @@ in = 2;
 </details>
 
 ###  Week3_Task2 (VM-Synthesis,Gate Level Simulation)
-
-<details>
- <summary> Work </summary>
-Perform synthesis and GLS of my vending machine and verify if the outputs match.
-</details>
 
 <details>
  <summary> Commands for synthesis </summary>
