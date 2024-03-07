@@ -423,10 +423,6 @@ gtkwave tb_good_mux.vcd
 ###  Week3_Task1 (VM-Functional Simulation)
 
 <details>
- <summary> Work </summary>
-</details>	
-
-<details>
  <summary> Commands </summary>
 			    
 ```bash
