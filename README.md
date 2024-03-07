@@ -601,7 +601,7 @@ gtkwave vending_machine_tb.vcd
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cd96a50d-b42a-4e73-b746-4a3aec4a431d)
 <p><b>Coin insertion-10,0:</b></p>
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/97a82968-0935-4f44-acfb-92f1cc447c50)
+![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/97a82968-0935-4f44-acfb-92f1cc447c50)
 
 
 <p><b>We can observe that the results from both functional simulation and gate level simulation match.</b></p>
