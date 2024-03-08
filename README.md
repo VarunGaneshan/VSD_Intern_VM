@@ -1,4 +1,4 @@
-# **VSD_Research_Internship_Project_VLSI**
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/d72a81ed-29f4-4c9a-b46b-d2f2d4f1c2a3)# **VSD_Research_Internship_Project_VLSI**
 ## Vending_Machine_with_Change_System
 I will be implementing an **Ideal** Vending Machine with Change System. The project aims to match the functional simulation results obtained from the RTL netlist and Gate-Synthesized netlist as closely as possible.
 
@@ -523,7 +523,7 @@ dfflibmap -liberty /home/varun/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd
 ```
 >While synthesizing RTL code for flops we need to use this command,because in the library flow, there will be separate library for flops and standard cells. So we need to explicitly tell the tool where to pickup flops in the design from. In our case we have same library for both , so we have used same library path for invoking dfflibmap command.
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/f98f2961-43fa-4026-b712-dba26dae3f44)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/8a141c6b-46ba-40c4-a97c-cf6c5de88944)
 
 ```bash
 (command to do all optimizations)
@@ -533,46 +533,44 @@ opt_clean -purge
 
 >-purge : also remove internal nets if they have a public name.
 
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f20dabaa-ead8-4fa8-9afe-48be4b963cc4)
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/8fe84a96-3f8c-4ab1-932a-ee3aca2e63be)
 
 ```bash
 abc -liberty /home/varun/sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/7276a3a6-f472-41a0-b3fe-55678c64f0e5)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/af042be0-0bea-4c22-9b0d-c7e6726c007e)
+
 
 
 ```bash
 show 
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/6c7f9d63-d2a3-47b1-8559-ad14c2867348)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/3702fe1e-f744-4a38-9f1f-f0464fbfdfa0)
 
-
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/c86e5795-d0ea-40ec-8e19-752b239069c0)
-
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/5117950d-bbdb-4c4b-a239-ed6379531afb)
 
 ```bash
 write_verilog vending_machine_netlist.v
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/6800edd9-df14-459e-b92e-c7503e40fa12)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/aae4eddd-c64d-40f8-93a3-cd6fc072d07b)
 
 
 ```bash
 !gvim vending_machine_netlist.v 
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/fb0acabd-63b5-4091-9256-b8dbf407cd51)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/bb04e973-2916-4bb0-a3b8-bfd69678ce3e)
+
 
 ```bash
 write_verilog -noattr vending_machine_netlist.v
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/4e0ebe88-dc71-43fe-b0f9-d9e3d00513ec)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/e651a5ed-0337-42e3-8268-004e9873e31b)
 
 ```bash
 !gvim vending_machine_netlist.v 
 ```
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/4eba7cec-174c-4f9d-8133-8954180f0542)
-
-
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/f0c3a0ca-7889-4f6a-bcbf-bfbce010beed)
 
 </details>	
 <details>
@@ -601,7 +599,8 @@ gtkwave vending_machine_tb.vcd
 ![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/cd96a50d-b42a-4e73-b746-4a3aec4a431d)
 <p><b>Coin insertion-10,0:</b></p>
 
-![image](https://github.com/VarunGaneshan/VSD_Intern_RISCV/assets/94780009/97a82968-0935-4f44-acfb-92f1cc447c50)
+![image](https://github.com/VarunGaneshan/VSD_Intern_VM/assets/94780009/5e873c72-4798-4b7d-833b-7a26f13b9876)
+
 
 
 <p><b>We can observe that the results from both functional simulation and gate level simulation match.</b></p>
