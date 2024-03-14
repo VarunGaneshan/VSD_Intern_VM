@@ -619,3 +619,9 @@ gtkwave vending_machine_tb.vcd
 
 >[Link1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax),[Link2](https://www.youtube.com/watch?v=Nj87GEXxhjc),[Link3](https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61)- helped me to understand basic github documentation.Refer to the code of someone's README file to understand the syntax for a particular format that you want to replicate.
 
+## Acknowledgement 
+
+<br>Mr. Kunal Ghosh
+<br>The Director and co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+<br>India
+
