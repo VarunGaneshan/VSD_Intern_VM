@@ -624,5 +624,9 @@ gtkwave vending_machine_tb.vcd
 
 **The Director and co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd,**
 
+## Internship Completion Certificate
+![image](https://github.com/user-attachments/assets/e82a8351-2861-4e58-b113-629ad0ecb569)
+
+
 **India**
 
