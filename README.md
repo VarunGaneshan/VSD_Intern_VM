@@ -622,11 +622,10 @@ gtkwave vending_machine_tb.vcd
 ## Acknowledgement 
 [Mr. Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/?originalSubdomain=in)
 
-**The Director and co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd,**
+**The Director and co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd,India**
 
 ## Internship Completion Certificate
 ![image](https://github.com/user-attachments/assets/e82a8351-2861-4e58-b113-629ad0ecb569)
 
 
-**India**
 
